@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cansat-camera-pcb-footprints")(type "KiCad")(uri "${KIPRJMOD}/cansat-camera-pcb-footprints.pretty")(options "")(descr ""))
+)
