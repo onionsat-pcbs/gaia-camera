@@ -1673,7 +1673,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 0)
 				(length 5.08)
 				(name "IN"
@@ -1691,7 +1691,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "GND"
@@ -1709,7 +1709,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "EN"
@@ -1745,7 +1745,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 25.4 -2.54 180)
 				(length 5.08)
 				(name "OUT"
@@ -1899,7 +1899,20 @@
 					)
 				)
 			)
-			(pin power_in line
+		)
+		(symbol "TLV74328PDBVR_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_out line
 				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "OUT"
@@ -1917,7 +1930,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 12.7 0 180)
 				(length 5.08)
 				(name "NC"
@@ -1933,19 +1946,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "TLV74328PDBVR_1_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)

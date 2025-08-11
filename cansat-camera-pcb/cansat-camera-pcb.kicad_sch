@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ff55e53a-9379-43eb-9b08-9bace1f81889")
-	(paper "User" 275 300)
+	(paper "A3" portrait)
 	(title_block
 		(title "CS26 Camera modul root")
 		(date "2025-08-06")

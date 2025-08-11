@@ -1,4 +1,4 @@
-(footprint "TSOP-II-54_22.2x10.16mm_P0.8mm"
+(footprint "IS42S16800F-5TLI"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -113,18 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "02f06120-1db1-4a1b-b9b9-a203141f714c")
-	)
-	(fp_poly
-		(pts
-			(xy -5.7 -10.9) (xy -5.94 -11.23) (xy -5.46 -11.23) (xy -5.7 -10.9)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "01a62744-0afa-4091-989e-05c505ad93b7")
 	)
 	(fp_line
 		(start -6.76 -11.36)

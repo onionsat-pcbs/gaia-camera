@@ -570,7 +570,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cansat-camera-pcb-symbols:OV2640"
+		(symbol "gaia-camera-symbols:OV2640"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1064,7 +1064,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cansat-camera-pcb-symbols:TLV74315PDBVR"
+		(symbol "gaia-camera-symbols:TLV74315PDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1197,7 +1197,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 0)
 					(length 5.08)
 					(name "IN"
@@ -1215,7 +1215,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "GND"
@@ -1233,7 +1233,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "EN"
@@ -1269,7 +1269,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "OUT"
@@ -1290,7 +1290,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cansat-camera-pcb-symbols:TLV74328PDBVR"
+		(symbol "gaia-camera-symbols:TLV74328PDBVR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1423,7 +1423,20 @@
 						)
 					)
 				)
-				(pin power_in line
+			)
+			(symbol "TLV74328PDBVR_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_out line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "OUT"
@@ -1441,7 +1454,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "NC"
@@ -1457,19 +1470,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "TLV74328PDBVR_1_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3185,140 +3185,6 @@
 			(project ""
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cansat-camera-pcb-symbols:OV2640")
-		(at 121.92 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05c45820-fde0-44cc-b8b6-db81a82fb40f")
-		(property "Reference" "J3"
-			(at 121.92 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OV5640"
-			(at 121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "d9836f5c-7439-427f-88fd-6aaeccd9a1b1")
-		)
-		(pin "15"
-			(uuid "91b3210d-75b7-4072-8d58-548245380274")
-		)
-		(pin "3"
-			(uuid "2b932f54-0a83-44d3-8d10-a8567872795e")
-		)
-		(pin "5"
-			(uuid "aff20440-79c8-4888-930e-557e00e9ad3f")
-		)
-		(pin "8"
-			(uuid "4518a968-e6d9-4f7d-bd6d-56b1ac1274ed")
-		)
-		(pin "2"
-			(uuid "d6560481-a650-4b30-81ba-a1f5e119a359")
-		)
-		(pin "16"
-			(uuid "8f9a0979-df4d-46eb-8a19-a62892f526a8")
-		)
-		(pin "1"
-			(uuid "f27dc2df-3432-447e-8ad3-7bc4dfb39099")
-		)
-		(pin "7"
-			(uuid "1896f893-97cd-4678-a489-759ce0f07b1b")
-		)
-		(pin "24"
-			(uuid "15cf10ea-0655-4e7d-a6fe-c12d38f912d2")
-		)
-		(pin "22"
-			(uuid "f18ebda6-c412-48b7-9f73-eb633405de07")
-		)
-		(pin "9"
-			(uuid "dce1bc62-3798-402b-94cd-ff24c11882bd")
-		)
-		(pin "17"
-			(uuid "e6a48540-5bf8-4946-b1b7-e9865404bc45")
-		)
-		(pin "18"
-			(uuid "eff91ed6-5671-497f-84e4-afec7e3ed0e1")
-		)
-		(pin "10"
-			(uuid "6db0e17a-72cb-4e91-8330-1db3eb5035fc")
-		)
-		(pin "4"
-			(uuid "17687893-e0ff-49eb-9473-c699d1f81721")
-		)
-		(pin "11"
-			(uuid "81e42a98-dcca-4cd6-b61c-635984cc1f18")
-		)
-		(pin "20"
-			(uuid "9c10eea1-36a9-43ff-a0fd-0766e7c16cf0")
-		)
-		(pin "19"
-			(uuid "15a16217-252c-45de-bc83-a61a801a8180")
-		)
-		(pin "13"
-			(uuid "d974366e-6652-4911-8b7a-89cf4f9090bb")
-		)
-		(pin "23"
-			(uuid "1ca5fe11-3678-402c-ac5a-f0882ff11bd0")
-		)
-		(pin "21"
-			(uuid "bae96638-508a-4faa-a231-4cad1c82d188")
-		)
-		(pin "14"
-			(uuid "2aba7698-c977-45e6-8ca8-c97a1ffff6cf")
-		)
-		(pin "12"
-			(uuid "d4eec405-01f9-4f98-b56c-6b82ac4cdbd9")
-		)
-		(instances
-			(project ""
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5361,6 +5227,155 @@
 		)
 	)
 	(symbol
+		(lib_id "gaia-camera-symbols:TLV74315PDBVR")
+		(at 21.59 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb10279-f6f2-4ed8-8935-6b0e58afd16d")
+		(property "Reference" "IC2"
+			(at 34.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74315PDBVR"
+			(at 34.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 43.18 213.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv743p"
+			(at 43.18 313.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low-Dropout (LDO) Regulator"
+			(at 21.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 43.18 513.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 43.18 613.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV74315PDBVR"
+			(at 43.18 713.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV74315PDBVR"
+			(at 43.18 813.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV74315PDBVR"
+			(at 43.18 913.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TLV74315PDBVR"
+			(at 43.18 1013.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv74315pdbvr/texas-instruments"
+			(at 43.18 1113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7926ef1-11a9-4a16-9ef0-31729d231eb0")
+		)
+		(pin "2"
+			(uuid "94bb1805-154d-42ae-9f13-2172c9e16e3b")
+		)
+		(pin "3"
+			(uuid "c4ab3433-94eb-46cd-9650-8218fde8547e")
+		)
+		(pin "4"
+			(uuid "a30e40af-9c81-47c9-9577-02a01b582e3e")
+		)
+		(pin "5"
+			(uuid "23fb5f7f-ee8b-434d-8cd6-cc0a9efc07a6")
+		)
+		(instances
+			(project ""
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 59.69 124.46 0)
 		(unit 1)
@@ -5562,6 +5577,140 @@
 		)
 	)
 	(symbol
+		(lib_id "gaia-camera-symbols:OV2640")
+		(at 121.92 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd51a6e4-dabc-44a9-b2a8-30b8f4abc8c8")
+		(property "Reference" "J6"
+			(at 121.92 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OV5640"
+			(at 121.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "280adffd-4b61-41f8-8a53-b40927d7c03e")
+		)
+		(pin "18"
+			(uuid "edbd209a-01cb-43b5-a653-ed737adb9376")
+		)
+		(pin "2"
+			(uuid "12279806-98a4-4845-a99d-9bf688f0e7c7")
+		)
+		(pin "21"
+			(uuid "acf9a7dd-36d7-4506-9729-8d121896b8be")
+		)
+		(pin "9"
+			(uuid "484666dd-14cb-4e5a-8e83-4262536cb9f5")
+		)
+		(pin "22"
+			(uuid "7409145d-2b2a-4136-98aa-270686c0578f")
+		)
+		(pin "17"
+			(uuid "12f938d2-3fd7-43e5-88d9-9dbc465d29c2")
+		)
+		(pin "16"
+			(uuid "b91d904c-fa6e-47a2-870f-e52b8446cbd8")
+		)
+		(pin "1"
+			(uuid "04d6cc56-232a-4316-84f1-028a154705cc")
+		)
+		(pin "10"
+			(uuid "b502fddb-2671-44b7-823c-4f5cb713dad4")
+		)
+		(pin "3"
+			(uuid "35aba089-9a98-4532-bb3b-fd2d68ad415b")
+		)
+		(pin "19"
+			(uuid "c0aee8ca-6590-4d54-a559-9810b8783f80")
+		)
+		(pin "20"
+			(uuid "1a84c7d1-435d-46c8-b0aa-49aacdce0264")
+		)
+		(pin "8"
+			(uuid "4f41a594-10cb-4b5a-bc05-de466673229e")
+		)
+		(pin "11"
+			(uuid "e2952da4-11ad-4d38-b394-72f9b5d62e6d")
+		)
+		(pin "15"
+			(uuid "5c7476ab-a63b-43f1-b139-7360f7554f48")
+		)
+		(pin "5"
+			(uuid "a30173ac-40cd-4181-a8e7-70e3ab148bf8")
+		)
+		(pin "7"
+			(uuid "91430ce4-135c-4d8f-8872-787768e933ca")
+		)
+		(pin "24"
+			(uuid "8937535e-a187-4571-817a-42567059efef")
+		)
+		(pin "6"
+			(uuid "f8864af5-b084-43b8-8054-4659f8139c74")
+		)
+		(pin "23"
+			(uuid "904e6ea1-5736-4dd4-ba83-6f986f809b06")
+		)
+		(pin "13"
+			(uuid "d22f659b-9397-4cd6-9c43-0ef145033421")
+		)
+		(pin "14"
+			(uuid "ca7d60e3-b2a9-4634-b19e-56f36996feec")
+		)
+		(pin "12"
+			(uuid "1edef43d-010c-4746-adc1-cb4a43f26577")
+		)
+		(instances
+			(project ""
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 80.01 270)
 		(unit 1)
@@ -5622,155 +5771,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cansat-camera-pcb-symbols:TLV74315PDBVR")
-		(at 21.59 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5c8221d-e2d0-4f60-80c5-83070d56eeba")
-		(property "Reference" "IC1"
-			(at 34.29 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74315PDBVR"
-			(at 34.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 43.18 213.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv743p"
-			(at 43.18 313.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Low-Dropout (LDO) Regulator"
-			(at 21.59 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 43.18 513.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 43.18 613.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV74315PDBVR"
-			(at 43.18 713.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV74315PDBVR"
-			(at 43.18 813.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV74315PDBVR"
-			(at 43.18 913.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TLV74315PDBVR"
-			(at 43.18 1013.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv74315pdbvr/texas-instruments"
-			(at 43.18 1113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "64e2116a-f627-4c31-87a2-772fb8052aed")
-		)
-		(pin "4"
-			(uuid "a7c1bf5d-b03b-45a6-b2dd-d5709ba0eabe")
-		)
-		(pin "1"
-			(uuid "f15d5523-d2c8-47a7-b355-ec299565e336")
-		)
-		(pin "3"
-			(uuid "77435c98-80f6-4ff6-9422-f6d2bb81b8d9")
-		)
-		(pin "2"
-			(uuid "1fd82951-49dd-4637-b8dd-43dd723e0994")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -6045,6 +6045,85 @@
 		)
 	)
 	(symbol
+		(lib_id "gaia-camera-symbols:TLV74328PDBVR")
+		(at 73.66 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea4f86db-7c42-479e-b443-e51229345ee3")
+		(property "Reference" "U6"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV74328PDBVR"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DBV0005A_N"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv743p"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfb33340-a053-4372-9416-e5b283970951")
+		)
+		(pin "4"
+			(uuid "13376ad5-3764-4c9b-81d1-779fccc34818")
+		)
+		(pin "1"
+			(uuid "215debdf-38c1-4330-a5d1-98588361b907")
+		)
+		(pin "5"
+			(uuid "ed28af32-d8a2-4088-aed1-fb633c788549")
+		)
+		(pin "3"
+			(uuid "0cdf241b-15ae-4a02-baac-f5ca6a9dd2f9")
+		)
+		(instances
+			(project ""
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 102.87 91.44 0)
 		(unit 1)
@@ -6109,84 +6188,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cansat-camera-pcb-symbols:TLV74328PDBVR")
-		(at 73.66 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f70464b1-ec34-437b-9a93-878d04cd2d3e")
-		(property "Reference" "U1"
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV74328PDBVR"
-			(at 73.66 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DBV0005A_N"
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv743p"
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ef2356a9-85b8-4389-9381-7c95f3441544")
-		)
-		(pin "5"
-			(uuid "0c1806e0-76f0-4481-9f2a-c3d6ea1356e4")
-		)
-		(pin "3"
-			(uuid "06fd28fb-5f4f-41c7-ac6b-30e674df9aab")
-		)
-		(pin "2"
-			(uuid "08027253-afbe-4668-994f-e3b5da5ba437")
-		)
-		(pin "1"
-			(uuid "fbe10531-9896-4858-a46b-8d571b33a534")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "U1")
 					(unit 1)
 				)
 			)
