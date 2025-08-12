@@ -9260,7 +9260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" ""
 			(at 62.23 242.57 0)
 			(effects
 				(font
@@ -10150,7 +10150,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25MHz"
+		(property "Value" "24MHz"
 			(at 46.99 92.7099 90)
 			(effects
 				(font

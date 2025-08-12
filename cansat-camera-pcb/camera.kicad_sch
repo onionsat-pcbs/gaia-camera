@@ -5252,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "gaia-camera-footprints:TLV74315PDBVR"
 			(at 43.18 213.03 0)
 			(effects
 				(font
@@ -6070,7 +6070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "gaia-camera-footprints:TLV74328PDBVR"
 			(at 73.66 90.17 0)
 			(effects
 				(font
