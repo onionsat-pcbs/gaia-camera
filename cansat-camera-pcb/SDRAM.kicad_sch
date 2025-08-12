@@ -2831,7 +2831,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gaia-camera-footprints:IS42S16800F-5TLI"
+		(property "Footprint" ""
 			(at 140.97 22.86 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 101.6 0)
 			(effects
 				(font
@@ -3323,7 +3323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 44.45 0)
 			(effects
 				(font
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 113.03 0)
 			(effects
 				(font
@@ -3792,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 55.88 0)
 			(effects
 				(font
@@ -3859,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 90.17 0)
 			(effects
 				(font
@@ -4058,7 +4058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 124.46 0)
 			(effects
 				(font
@@ -4661,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" ""
 			(at 46.99 78.74 0)
 			(effects
 				(font
