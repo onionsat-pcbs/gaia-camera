@@ -3417,7 +3417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.15 36.83 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -3688,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 64.77 0)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 36.83 0)
 			(effects
 				(font
@@ -4234,7 +4234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 44.45 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 30.48 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -4705,7 +4705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 44.45 0)
 			(effects
 				(font
@@ -4839,7 +4839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -4909,7 +4909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.94 83.82 0)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -5049,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 124.46 0)
 			(effects
 				(font
@@ -5118,7 +5118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 83.82 0)
 			(effects
 				(font
@@ -5403,7 +5403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 59.69 124.46 0)
 			(effects
 				(font
@@ -5471,7 +5471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gaia-camera-footprints:OV5640"
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -5870,7 +5870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -6151,7 +6151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 102.87 91.44 0)
 			(effects
 				(font
