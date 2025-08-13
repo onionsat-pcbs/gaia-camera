@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gaia-camera-footprints:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 41.91 62.23 0)
 			(effects
 				(font
