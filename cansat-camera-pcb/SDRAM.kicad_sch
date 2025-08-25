@@ -151,32 +151,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "gaia-camera-symbols:IS42S16800F-5TLI"
+		(symbol "gaia-camera-symbols:W9825G6KH-6"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 1.778 0)
+				(at -10.16 41.275 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "W9825G6KH-6"
+				(at -10.16 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "W9825G6KH-6:SOP80P1176X120-54N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -198,996 +204,1106 @@
 					(hide yes)
 				)
 			)
-			(symbol "IS42S16800F-5TLI_1_1"
+			(property "MF" "Winbond Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "TSOP-54 Winbond Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/W9825G6KH-6/Winbond/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/W9825G6KH-6/Winbond/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "W9825G6KH-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SDRAM Memory IC 256Mb (16M x 16) Parallel 166 MHz 5 ns 54-TSOP II"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Winbond"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "W9825G6KH-6_0_0"
 				(rectangle
-					(start 0 0)
-					(end 13.97 -76.2)
+					(start -10.16 -40.64)
+					(end 10.16 40.64)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(text "IS42S16800F-5TLI"
-					(at 7.366 -38.1 900)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(thickness 0.3048)
-							(bold yes)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "DQ0"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "VDDQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "DQ1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "DQ2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "VSSQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "DQ3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "DQ4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "VDDQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "DQ5"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "DQ6"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "VSSQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "DQ7"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "DQML"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "WE"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "CAS"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "RAS"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "BA0"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "BA1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "A10"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
+					(at -15.24 30.48 0)
+					(length 5.08)
 					(name "A0"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "23"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
+					(at -15.24 27.94 0)
+					(length 5.08)
 					(name "A1"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "24"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -2.54 -66.04 0)
-					(length 2.54)
+					(at -15.24 25.4 0)
+					(length 5.08)
 					(name "A2"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "25"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
+					(at -15.24 22.86 0)
+					(length 5.08)
 					(name "A3"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "26"
 						(effects
 							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -5.08 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -7.62 180)
-					(length 2.54)
-					(name "DQ15"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -10.16 180)
-					(length 2.54)
-					(name "VSSQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -12.7 180)
-					(length 2.54)
-					(name "DQ14"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -15.24 180)
-					(length 2.54)
-					(name "DQ13"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -17.78 180)
-					(length 2.54)
-					(name "VDDQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -20.32 180)
-					(length 2.54)
-					(name "DQ12"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -22.86 180)
-					(length 2.54)
-					(name "DQ11"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -25.4 180)
-					(length 2.54)
-					(name "VSSQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -27.94 180)
-					(length 2.54)
-					(name "DQ10"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -30.48 180)
-					(length 2.54)
-					(name "DQ9"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -33.02 180)
-					(length 2.54)
-					(name "VDDQ"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -35.56 180)
-					(length 2.54)
-					(name "DQ8"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -38.1 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 16.51 -40.64 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 16.51 -43.18 180)
-					(length 2.54)
-					(name "DQMH"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -45.72 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -48.26 180)
-					(length 2.54)
-					(name "CKE"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 16.51 -50.8 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -53.34 180)
-					(length 2.54)
-					(name "A11"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -55.88 180)
-					(length 2.54)
-					(name "A9"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -58.42 180)
-					(length 2.54)
-					(name "A8"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -60.96 180)
-					(length 2.54)
-					(name "A7"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -63.5 180)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -66.04 180)
-					(length 2.54)
-					(name "A5"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -68.58 180)
-					(length 2.54)
+					(at -15.24 20.32 0)
+					(length 5.08)
 					(name "A4"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "29"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "A10/AP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "A11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "~{RAS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "~{CAS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 5.08)
+					(name "~{WE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "CKE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -22.86 0)
+					(length 5.08)
+					(name "LDQM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -25.4 0)
+					(length 5.08)
+					(name "UDQM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -30.48 0)
+					(length 5.08)
+					(name "BS0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -33.02 0)
+					(length 5.08)
+					(name "BS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 16.51 -71.12 180)
-					(length 2.54)
+					(at 15.24 38.1 180)
+					(length 5.08)
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 38.1 180)
+					(length 5.08)
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 38.1 180)
+					(length 5.08)
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 38.1 180)
+					(length 5.08)
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 35.56 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 35.56 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 35.56 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 22.86 180)
+					(length 5.08)
+					(name "DQ0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 5.08)
+					(name "DQ1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 5.08)
+					(name "DQ2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "DQ3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "DQ4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "DQ5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "DQ6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "DQ7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "DQ8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DQ9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "DQ10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "DQ11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "DQ12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "DQ13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "DQ14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "DQ15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -27.94 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -35.56 180)
+					(length 5.08)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -35.56 180)
+					(length 5.08)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -35.56 180)
+					(length 5.08)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -35.56 180)
+					(length 5.08)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -38.1 180)
+					(length 5.08)
 					(name "VSS"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "28"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -38.1 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -38.1 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1506,15 +1622,9 @@
 		(color 0 0 0 0)
 		(uuid "d83e1fae-5635-456e-aef1-7c2ad7d124c5")
 	)
-	(wire
-		(pts
-			(xy 137.16 30.48) (xy 138.43 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090faa53-0725-4149-8c46-0b858f65b315")
+	(no_connect
+		(at 154.94 87.63)
+		(uuid "baf126c8-600a-4158-aa34-72211aa09084")
 	)
 	(wire
 		(pts
@@ -1525,16 +1635,6 @@
 			(type default)
 		)
 		(uuid "09f830b4-dbae-4885-911c-34b8de67e2d5")
-	)
-	(wire
-		(pts
-			(xy 157.48 83.82) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5e29bf-17e2-49cb-8cc4-e2ca31b952a0")
 	)
 	(wire
 		(pts
@@ -1558,26 +1658,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 138.43 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbf1268-2ad6-41fc-9070-f1f19fa40104")
-	)
-	(wire
-		(pts
-			(xy 137.16 38.1) (xy 138.43 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1318231b-41b5-4dd7-8f0b-b16f50c37463")
-	)
-	(wire
-		(pts
 			(xy 41.91 78.74) (xy 43.18 78.74)
 		)
 		(stroke
@@ -1585,16 +1665,6 @@
 			(type default)
 		)
 		(uuid "13ec5a49-4815-4ac3-9790-c7c8ace57568")
-	)
-	(wire
-		(pts
-			(xy 157.48 91.44) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8c03cd-dacb-4140-86bd-9f04bc46f1b7")
 	)
 	(wire
 		(pts
@@ -1608,26 +1678,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 138.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f518315-ad4f-452a-9cc5-07246a59ff07")
-	)
-	(wire
-		(pts
-			(xy 157.48 53.34) (xy 158.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8085c5-ce13-4702-86ca-18c6e700e1ff")
-	)
-	(wire
-		(pts
 			(xy 50.8 33.02) (xy 50.8 44.45)
 		)
 		(stroke
@@ -1635,16 +1685,6 @@
 			(type default)
 		)
 		(uuid "25273078-cc56-4a1f-8a44-ee4597483dc4")
-	)
-	(wire
-		(pts
-			(xy 137.16 83.82) (xy 138.43 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9858cb-0187-44b7-aa9f-9678a2dd5619")
 	)
 	(wire
 		(pts
@@ -1658,16 +1698,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3913b30a-8f92-4146-b7bd-d84837dcc243")
-	)
-	(wire
-		(pts
 			(xy 44.45 124.46) (xy 43.18 124.46)
 		)
 		(stroke
@@ -1675,46 +1705,6 @@
 			(type default)
 		)
 		(uuid "3b94404b-090f-4ffe-9f0a-2b1ca411c116")
-	)
-	(wire
-		(pts
-			(xy 137.16 86.36) (xy 138.43 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d81c798-2f0e-415a-a82b-4ad07899ee3e")
-	)
-	(wire
-		(pts
-			(xy 137.16 53.34) (xy 138.43 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db389ce-27bc-4296-87d4-e6dfdaf4f481")
-	)
-	(wire
-		(pts
-			(xy 168.91 48.26) (xy 157.48 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4b7eac-6e8c-4b79-acac-568b93d96e05")
-	)
-	(wire
-		(pts
-			(xy 157.48 66.04) (xy 158.75 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41560dfb-966f-4a0e-b46e-b86d5ad2c5e5")
 	)
 	(wire
 		(pts
@@ -1738,16 +1728,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c92ba0-0b59-4ec7-b0a6-1394b7cff5e4")
-	)
-	(wire
-		(pts
 			(xy 50.8 55.88) (xy 49.53 55.88)
 		)
 		(stroke
@@ -1758,26 +1738,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e76b36-e17e-4a7a-8bf1-8dd62c41eac0")
-	)
-	(wire
-		(pts
-			(xy 157.48 38.1) (xy 158.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46304048-9470-4367-b6b7-fa38b4101986")
-	)
-	(wire
-		(pts
 			(xy 43.18 113.03) (xy 43.18 101.6)
 		)
 		(stroke
@@ -1785,16 +1745,6 @@
 			(type default)
 		)
 		(uuid "4630aecf-1cf9-4682-950d-4aaff0817afe")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 138.43 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47894e83-e9b1-4025-b6da-38b0ccc94ee9")
 	)
 	(wire
 		(pts
@@ -1818,56 +1768,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 45.72) (xy 158.75 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ebd109e-3848-4930-9b9e-8bd9d3a6b3a9")
-	)
-	(wire
-		(pts
-			(xy 137.16 88.9) (xy 138.43 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "506b87d0-ef65-488e-bc31-8ecedab064eb")
-	)
-	(wire
-		(pts
-			(xy 157.48 30.48) (xy 158.75 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571f0424-ab86-4898-aa34-3d4972077a27")
-	)
-	(wire
-		(pts
-			(xy 157.48 71.12) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5737ae6c-c2e6-4445-a1d2-64b4e68ef8be")
-	)
-	(wire
-		(pts
-			(xy 137.16 81.28) (xy 138.43 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b2234c-9cf4-436a-90b2-1ff5192fa55c")
-	)
-	(wire
-		(pts
 			(xy 50.8 124.46) (xy 49.53 124.46)
 		)
 		(stroke
@@ -1888,36 +1788,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 138.43 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68628195-1e4a-4e59-9028-842ee0bb8bdd")
-	)
-	(wire
-		(pts
-			(xy 157.48 43.18) (xy 158.75 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0342a6-156a-486a-a675-1d71cd4afdd0")
-	)
-	(wire
-		(pts
-			(xy 168.91 55.88) (xy 157.48 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fbade89-9789-40da-b869-a72b3cec083b")
-	)
-	(wire
-		(pts
 			(xy 50.8 67.31) (xy 50.8 78.74)
 		)
 		(stroke
@@ -1925,16 +1795,6 @@
 			(type default)
 		)
 		(uuid "781b8204-a6f0-431c-a5e3-ed753b06c3ea")
-	)
-	(wire
-		(pts
-			(xy 157.48 35.56) (xy 158.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a37252-1650-4722-9d18-5b5da6b59d79")
 	)
 	(wire
 		(pts
@@ -1948,36 +1808,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 68.58) (xy 158.75 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7c3d5a-743f-4bd4-814b-d0f8059f5cb7")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 158.75 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8caafc6c-156c-4956-b383-f37eee478e2c")
-	)
-	(wire
-		(pts
-			(xy 127 60.96) (xy 138.43 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904168ac-16dd-43fa-9eea-ee0b4bdf7129")
-	)
-	(wire
-		(pts
 			(xy 50.8 78.74) (xy 49.53 78.74)
 		)
 		(stroke
@@ -1985,66 +1815,6 @@
 			(type default)
 		)
 		(uuid "9369fc39-6971-4c6a-8896-7466ceb823c3")
-	)
-	(wire
-		(pts
-			(xy 137.16 73.66) (xy 138.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e8d4c8-aaf2-4540-9323-76651aa00258")
-	)
-	(wire
-		(pts
-			(xy 137.16 35.56) (xy 138.43 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b11c75-5a2d-4fec-9b45-41e45ff59077")
-	)
-	(wire
-		(pts
-			(xy 168.91 40.64) (xy 157.48 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9877b48a-4420-4c0f-9317-df9145f5042d")
-	)
-	(wire
-		(pts
-			(xy 137.16 63.5) (xy 138.43 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c89043b-9b25-41de-bd60-d80dd61d66ee")
-	)
-	(wire
-		(pts
-			(xy 127 48.26) (xy 138.43 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03257bc-28ea-4c35-a4a9-c3c10e81cdb0")
-	)
-	(wire
-		(pts
-			(xy 157.48 58.42) (xy 158.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a53afad5-3380-43aa-b0df-ab20ee161e70")
 	)
 	(wire
 		(pts
@@ -2065,26 +1835,6 @@
 			(type default)
 		)
 		(uuid "aec07252-a480-4c25-bf5f-f3734dc41b77")
-	)
-	(wire
-		(pts
-			(xy 157.48 81.28) (xy 158.75 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b716a2f8-69ec-4402-a14b-7bdaa096a943")
-	)
-	(wire
-		(pts
-			(xy 127 33.02) (xy 138.43 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b82b9162-ce29-474c-b60a-558fa8020577")
 	)
 	(wire
 		(pts
@@ -2128,26 +1878,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 78.74) (xy 138.43 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bbbffc-1cff-4fc4-8ba8-0c99ba2a6c08")
-	)
-	(wire
-		(pts
-			(xy 168.91 27.94) (xy 157.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca4f44ee-03df-4364-8d78-4fe57a91ed77")
-	)
-	(wire
-		(pts
 			(xy 43.18 124.46) (xy 43.18 113.03)
 		)
 		(stroke
@@ -2155,26 +1885,6 @@
 			(type default)
 		)
 		(uuid "cbec8daf-e0e7-4508-a38a-2e3f3a1c9353")
-	)
-	(wire
-		(pts
-			(xy 127 40.64) (xy 138.43 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5a3ee7-836f-4947-b5af-6fe4ecdf338a")
-	)
-	(wire
-		(pts
-			(xy 137.16 45.72) (xy 138.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc7c027-4a63-4056-85f0-4f894500d9e6")
 	)
 	(wire
 		(pts
@@ -2218,56 +1928,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46876c7-e8da-46fb-be27-bc9a13d45a57")
-	)
-	(wire
-		(pts
-			(xy 137.16 71.12) (xy 138.43 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0fa172-ecc4-4cdb-85e7-ae489bc67fa0")
-	)
-	(wire
-		(pts
-			(xy 157.48 50.8) (xy 158.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1272674-87c2-41a1-b40f-12b69d41c6a5")
-	)
-	(wire
-		(pts
-			(xy 137.16 76.2) (xy 138.43 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6021dfc-a88a-4ed6-a50b-83d452c6beae")
-	)
-	(wire
-		(pts
-			(xy 157.48 88.9) (xy 158.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e897e0ca-5c0b-4485-a57d-a95a01c8b6a8")
-	)
-	(wire
-		(pts
 			(xy 43.18 55.88) (xy 44.45 55.88)
 		)
 		(stroke
@@ -2278,26 +1938,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 138.43 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7a2492-8133-44a9-834e-8167f841ddbb")
-	)
-	(wire
-		(pts
-			(xy 168.91 33.02) (xy 157.48 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb45a270-6ad7-4fe3-b0c4-cb9792001eaa")
-	)
-	(wire
-		(pts
 			(xy 50.8 113.03) (xy 49.53 113.03)
 		)
 		(stroke
@@ -2305,16 +1945,6 @@
 			(type default)
 		)
 		(uuid "eb95cbc8-94e0-48cb-adbc-27115926d1cc")
-	)
-	(wire
-		(pts
-			(xy 137.16 66.04) (xy 138.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecbadb64-0c1d-4be1-b032-2df4f7f6005d")
 	)
 	(wire
 		(pts
@@ -2338,26 +1968,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2a6c11-5df0-4f05-b5cc-6d256bcf9407")
-	)
-	(wire
-		(pts
-			(xy 137.16 58.42) (xy 138.43 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f078e06f-c851-425b-98d4-f6fdffc9d09b")
-	)
-	(wire
-		(pts
 			(xy 50.8 44.45) (xy 49.53 44.45)
 		)
 		(stroke
@@ -2365,16 +1975,6 @@
 			(type default)
 		)
 		(uuid "f2e1c2e4-ffda-41a6-bbda-be9f48bf1b92")
-	)
-	(wire
-		(pts
-			(xy 127 27.94) (xy 138.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f996d2e1-bcdc-42e3-a0c9-dd58fd5b0aed")
 	)
 	(wire
 		(pts
@@ -2386,423 +1986,434 @@
 		)
 		(uuid "fc9b7f75-74d7-4343-bac9-620d80202c8c")
 	)
-	(hierarchical_label "DQ7"
-		(shape bidirectional)
-		(at 137.16 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0491e6e8-95c5-47f7-87f4-0782914e82d0")
-	)
-	(hierarchical_label "A8"
-		(shape input)
-		(at 158.75 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07ff3d97-44f5-4fa8-8dd8-b895f3641cac")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 137.16 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d705956-46c9-4112-836d-4efeb46418ac")
-	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 158.75 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "132dd208-8103-4d1d-8e7f-e6e36056851d")
-	)
 	(hierarchical_label "DQ5"
 		(shape bidirectional)
-		(at 137.16 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1575bac7-6230-44eb-94be-3fe45564c26c")
-	)
-	(hierarchical_label "BA1"
-		(shape input)
-		(at 137.16 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16b5a45a-7674-491c-817d-ee7a872390c4")
-	)
-	(hierarchical_label "A9"
-		(shape input)
-		(at 158.75 78.74 0)
+		(at 154.94 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "19ac1a99-7b75-40e6-99c8-2262d6133183")
-	)
-	(hierarchical_label "DQ8"
-		(shape bidirectional)
-		(at 158.75 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a61ec5f-f71b-48f4-b23b-42fecbe8521a")
-	)
-	(hierarchical_label "DQ11"
-		(shape bidirectional)
-		(at 158.75 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cb6269e-815a-4ad3-b542-042084658355")
-	)
-	(hierarchical_label "DQ13"
-		(shape bidirectional)
-		(at 158.75 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d7e450b-558d-4392-b13a-bedfbe186d05")
-	)
-	(hierarchical_label "DQML"
-		(shape input)
-		(at 137.16 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3120b55d-c25d-4693-a87f-88819c7705fc")
-	)
-	(hierarchical_label "DQ9"
-		(shape bidirectional)
-		(at 158.75 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43a27090-9c82-425b-9df1-3f45831b97d0")
-	)
-	(hierarchical_label "A11"
-		(shape input)
-		(at 158.75 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e427371-875e-43ab-98ff-cb69877a189e")
-	)
-	(hierarchical_label "BA0"
-		(shape input)
-		(at 137.16 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f221d74-f0ad-41cd-8367-73183609f21d")
-	)
-	(hierarchical_label "WE"
-		(shape input)
-		(at 137.16 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5397218b-9846-443a-b567-df031275400d")
-	)
-	(hierarchical_label "DQ1"
-		(shape bidirectional)
-		(at 137.16 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5939b2af-2ca8-41f4-98b2-f798535d5f89")
-	)
-	(hierarchical_label "A2"
-		(shape input)
-		(at 137.16 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6dbffe00-098a-4941-86b0-503f57e25f67")
-	)
-	(hierarchical_label "DQ3"
-		(shape bidirectional)
-		(at 137.16 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7211aa52-2ec3-40c4-b6c9-d6123061b5c2")
-	)
-	(hierarchical_label "CKE"
-		(shape input)
-		(at 158.75 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ed3b4ca-0f11-4f28-9f47-a7150289fd01")
-	)
-	(hierarchical_label "DQ14"
-		(shape bidirectional)
-		(at 158.75 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "878abbbf-5131-424f-8c18-2c7a106ff0a5")
-	)
-	(hierarchical_label "A6"
-		(shape input)
-		(at 158.75 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87b99da1-3f79-4210-a8ae-ef9e52a37289")
-	)
-	(hierarchical_label "DQ12"
-		(shape bidirectional)
-		(at 158.75 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93861c62-26bc-4135-9c53-e2cf4d02131f")
-	)
-	(hierarchical_label "DQ15"
-		(shape bidirectional)
-		(at 158.75 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94dc18d6-042b-4ab1-bee4-ff22dde0f29a")
-	)
-	(hierarchical_label "A3"
-		(shape input)
-		(at 137.16 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c8d496f-356f-4178-968b-d58ff108b269")
-	)
-	(hierarchical_label "A0"
-		(shape input)
-		(at 137.16 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9cd7d073-ec2e-4781-9826-748da970e1e5")
-	)
-	(hierarchical_label "DQMH"
-		(shape input)
-		(at 158.75 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a034748d-bfed-4e33-908e-39d60a59d913")
-	)
-	(hierarchical_label "DQ4"
-		(shape bidirectional)
-		(at 137.16 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a203c942-f87c-4a0e-bf51-573d941b71a2")
-	)
-	(hierarchical_label "A5"
-		(shape input)
-		(at 158.75 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a3b03d9a-4810-4b52-8ca4-79d5cd5b8722")
-	)
-	(hierarchical_label "A7"
-		(shape input)
-		(at 158.75 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afaf88eb-7e4f-4dbf-86a4-aa4cc5a04265")
-	)
-	(hierarchical_label "DQ10"
-		(shape bidirectional)
-		(at 158.75 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b21d4d47-8f92-4048-b607-d0297dd967a9")
-	)
-	(hierarchical_label "A4"
-		(shape input)
-		(at 158.75 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c34a893f-e7d0-4134-848e-755f20b57415")
-	)
-	(hierarchical_label "A10"
-		(shape input)
-		(at 137.16 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd1275a2-7407-4276-9d9f-975ad8eb94bc")
-	)
-	(hierarchical_label "RAS"
-		(shape input)
-		(at 137.16 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d13d6f22-1e47-40bb-8cf0-394540a01605")
-	)
-	(hierarchical_label "DQ6"
-		(shape bidirectional)
-		(at 137.16 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcb0b01c-b30a-4e0c-9265-e20e88031ef3")
-	)
-	(hierarchical_label "DQ0"
-		(shape bidirectional)
-		(at 137.16 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de4f77cb-3e98-4f76-8e0d-a9383039b806")
-	)
-	(hierarchical_label "CAS"
-		(shape input)
-		(at 137.16 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec5579a0-bab9-40f0-b988-8d3eca1de535")
-	)
-	(hierarchical_label "DQ2"
-		(shape bidirectional)
-		(at 137.16 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6d8fbe0-685c-4fb0-8cc9-f15058d3e1ff")
+		(uuid "04c57553-23ae-46a6-8fc0-8ebb777b20b1")
 	)
 	(hierarchical_label "A1"
 		(shape input)
-		(at 137.16 86.36 180)
+		(at 124.46 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f9909831-412a-43ee-89a9-4b9b3ff86364")
+		(uuid "0e363726-3a4e-40fb-a809-282dcd9a310d")
+	)
+	(hierarchical_label "DQ11"
+		(shape bidirectional)
+		(at 154.94 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ddbaef-f1a0-4ef5-a630-99bcdc13767a")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 124.46 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c0573c4-a3fa-4214-bcd1-b3a161009b01")
+	)
+	(hierarchical_label "DQ8"
+		(shape bidirectional)
+		(at 154.94 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21916f2b-375c-4680-9dbf-0892b3608c00")
+	)
+	(hierarchical_label "DQ10"
+		(shape bidirectional)
+		(at 154.94 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2574aea0-a9ac-46da-9ade-5c9872afe377")
+	)
+	(hierarchical_label "A3"
+		(shape input)
+		(at 124.46 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29424944-636f-450f-b0aa-02dd5a1fa656")
+	)
+	(hierarchical_label "BS1"
+		(shape input)
+		(at 124.46 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35d49066-8077-4076-8a5c-d6fdbc4a2aa5")
+	)
+	(hierarchical_label "BS0"
+		(shape input)
+		(at 124.46 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40c2be6a-648c-4046-a2ad-835bc54729cb")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 124.46 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49678c15-c9f8-4e50-b28b-e37ede2090ce")
+	)
+	(hierarchical_label "A5"
+		(shape input)
+		(at 124.46 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c6768bc-ce69-452d-bce3-642a52ff60fb")
+	)
+	(hierarchical_label "DQMH"
+		(shape input)
+		(at 124.46 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53398bc4-b105-4108-b0cd-31ec5a454f31")
+	)
+	(hierarchical_label "WE"
+		(shape input)
+		(at 124.46 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56314dc3-4f89-4b1b-aa1c-a3cb2fa15db4")
+	)
+	(hierarchical_label "DQ15"
+		(shape bidirectional)
+		(at 154.94 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56867f04-d91b-488b-9197-70c5cd73a082")
+	)
+	(hierarchical_label "CAS"
+		(shape input)
+		(at 124.46 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5703af29-c5ec-49aa-b750-aae38582c8c7")
+	)
+	(hierarchical_label "A6"
+		(shape input)
+		(at 124.46 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fe40567-b7f6-4e59-bea7-0a929363fc8e")
+	)
+	(hierarchical_label "A12"
+		(shape input)
+		(at 124.46 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "645220b2-0392-493e-88e0-c2a5e3cf2df1")
+	)
+	(hierarchical_label "DQ3"
+		(shape bidirectional)
+		(at 154.94 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "673aecfa-8215-4b53-a386-40009ab4a6ee")
+	)
+	(hierarchical_label "RAS"
+		(shape input)
+		(at 124.46 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76b51908-f4fd-42fa-bab5-13b384ca73a6")
+	)
+	(hierarchical_label "A10"
+		(shape input)
+		(at 124.46 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c0893cc-0b03-4c0c-bd2e-d83c90e522c4")
+	)
+	(hierarchical_label "A7"
+		(shape input)
+		(at 124.46 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80c4ff29-e799-4f43-bd61-17533d4c002c")
+	)
+	(hierarchical_label "A9"
+		(shape input)
+		(at 124.46 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "881e1194-6cf6-4d85-be4e-8bc479617194")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 124.46 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2d2bace-14a7-4f09-bcae-cf7dbc2a6638")
+	)
+	(hierarchical_label "DQ7"
+		(shape bidirectional)
+		(at 154.94 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2da27e6-ea64-49cb-987e-f74ee8f63df9")
+	)
+	(hierarchical_label "DQ12"
+		(shape bidirectional)
+		(at 154.94 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a6f828-5d23-44e2-a0c4-3ecb4ef29351")
+	)
+	(hierarchical_label "DQ13"
+		(shape bidirectional)
+		(at 154.94 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa91e290-a17a-4d26-aa82-2c0fb6c31f42")
+	)
+	(hierarchical_label "DQ14"
+		(shape bidirectional)
+		(at 154.94 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aed0b485-0ead-4fe9-b117-16923fb0f928")
+	)
+	(hierarchical_label "DQML"
+		(shape input)
+		(at 124.46 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b004aa84-b13b-402a-8fe5-9d90a86ec1ab")
+	)
+	(hierarchical_label "DQ2"
+		(shape bidirectional)
+		(at 154.94 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b112c836-2438-4dda-8ecb-aed7e503e909")
+	)
+	(hierarchical_label "DQ6"
+		(shape bidirectional)
+		(at 154.94 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b342e6c1-45e7-46f9-9990-c0733e6c05a8")
+	)
+	(hierarchical_label "DQ0"
+		(shape bidirectional)
+		(at 154.94 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b419d4bb-9b82-44a2-bda0-12063cca528c")
+	)
+	(hierarchical_label "A4"
+		(shape input)
+		(at 124.46 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b80efff4-0989-4e65-9191-a94de5a1826b")
+	)
+	(hierarchical_label "DQ4"
+		(shape bidirectional)
+		(at 154.94 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0ce9645-a565-47d1-8038-98b4c4b0497e")
+	)
+	(hierarchical_label "A11"
+		(shape input)
+		(at 124.46 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1f5aeaf-bf21-4d1c-983b-07e31bfc7ca9")
+	)
+	(hierarchical_label "CKE"
+		(shape input)
+		(at 124.46 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d95ec621-5ae4-483a-8b47-8a8df0d5234d")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 124.46 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb39e76-92bb-4b90-a176-78751d9706f4")
+	)
+	(hierarchical_label "A8"
+		(shape input)
+		(at 124.46 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4666516-ca52-42b7-b8e4-75e709d9ec77")
+	)
+	(hierarchical_label "DQ1"
+		(shape bidirectional)
+		(at 154.94 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f62e2ae7-791a-4c22-a9e1-5d68b99d155b")
+	)
+	(hierarchical_label "DQ9"
+		(shape bidirectional)
+		(at 154.94 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb9d77ff-6f37-488d-bf5b-92ce82a9413c")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2868,364 +2479,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3c6e97-7d1e-4593-911e-f921c5da7540")
-		(property "Reference" "#PWR09"
-			(at 175.26 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c1775b3-fe97-4b7b-8365-653bda30c95b")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0da79f8f-0cde-4f17-8548-ff562be19898")
-		(property "Reference" "#PWR070"
-			(at 130.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5db440ee-87fa-4ee7-b418-e6b6a1046c47")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "gaia-camera-symbols:IS42S16800F-5TLI")
-		(at 140.97 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14145d1c-f7d4-4551-8da5-6675f36c12c5")
-		(property "Reference" "U1"
-			(at 147.955 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IS42S16800F-5TLI"
-			(at 147.955 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "gaia-camera-footprints:IS42S16800F-5TLI"
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "64a86f7e-0922-4557-a682-9a7cfe1763ce")
-		)
-		(pin "9"
-			(uuid "af180214-6b40-40e6-9f99-972fe8d8034b")
-		)
-		(pin "1"
-			(uuid "16e5e665-b987-4778-b514-f24c518dce22")
-		)
-		(pin "2"
-			(uuid "d582754b-3f70-4b1f-a00e-6c91d052a80d")
-		)
-		(pin "3"
-			(uuid "94660bca-9095-477b-b081-c2403559b602")
-		)
-		(pin "4"
-			(uuid "b0578a4a-c63e-492b-b8b6-718584a92884")
-		)
-		(pin "5"
-			(uuid "f5e87b36-9fd7-44d3-9f9b-7807cf1558f8")
-		)
-		(pin "7"
-			(uuid "d23a45a7-0327-4165-b87b-ed5cc14fa08f")
-		)
-		(pin "8"
-			(uuid "c1569532-8396-4300-834c-b622f87cb22c")
-		)
-		(pin "12"
-			(uuid "858bcbbd-464f-430b-b528-f6b844670618")
-		)
-		(pin "19"
-			(uuid "052cb73c-4f34-44c1-b7d6-a14969b09616")
-		)
-		(pin "50"
-			(uuid "e5b5b023-5921-4da3-8173-654bd7aa5b5c")
-		)
-		(pin "20"
-			(uuid "c632023f-e44b-45e8-962c-36adc2eb5887")
-		)
-		(pin "17"
-			(uuid "6a0fc201-ac81-4618-ada7-0ae73e25564b")
-		)
-		(pin "23"
-			(uuid "a4b6286f-14d5-438b-bdf9-7e1cec81d8a1")
-		)
-		(pin "11"
-			(uuid "0d4c5597-f5d6-4106-8da9-aadec4bae292")
-		)
-		(pin "25"
-			(uuid "b02bb00a-c80b-4645-b353-69e339b2ee9e")
-		)
-		(pin "16"
-			(uuid "6e538d6e-4bf7-4810-817a-7a81692424ce")
-		)
-		(pin "15"
-			(uuid "0a7e370a-0095-472e-acbe-f7f1ebce7785")
-		)
-		(pin "14"
-			(uuid "dc88a4f6-31ca-4584-89cc-02f044c0a2e6")
-		)
-		(pin "52"
-			(uuid "f9998e37-3259-4922-8674-579f31390c83")
-		)
-		(pin "26"
-			(uuid "461ab2f7-f595-438f-a443-8d974c45c012")
-		)
-		(pin "27"
-			(uuid "45b87eaa-eff9-4d11-9d63-3ae6cdbf53c8")
-		)
-		(pin "51"
-			(uuid "bde550c8-cf55-471e-8942-a663564965d1")
-		)
-		(pin "42"
-			(uuid "addb3704-500c-4f9a-b264-d8302aaf9be3")
-		)
-		(pin "39"
-			(uuid "18bdf858-7400-47b4-af84-e18d11d9c27b")
-		)
-		(pin "41"
-			(uuid "f930dd06-6458-4494-b231-475313a51c7c")
-		)
-		(pin "21"
-			(uuid "218941a6-67fb-4c87-8f0e-131368ae8205")
-		)
-		(pin "38"
-			(uuid "9340e090-0cc9-4358-b24c-f0e34b8d6b4a")
-		)
-		(pin "13"
-			(uuid "4a6ecee4-ea1c-415a-a5a9-d16a09d45310")
-		)
-		(pin "22"
-			(uuid "2ac3b4c1-16c5-46ce-84b7-2c9e77616d98")
-		)
-		(pin "54"
-			(uuid "9525d024-446b-448e-bcd1-957c18c3d8e3")
-		)
-		(pin "53"
-			(uuid "0dfbb251-3766-44da-a9a2-59e528a7866c")
-		)
-		(pin "10"
-			(uuid "a15f2bbb-dbb6-4ae1-8b88-fd872d222b82")
-		)
-		(pin "18"
-			(uuid "82506461-cbe6-4b24-b980-363c5b033506")
-		)
-		(pin "24"
-			(uuid "b2cac790-291b-4fc5-be91-4dcdb8069f55")
-		)
-		(pin "48"
-			(uuid "d4141924-08ab-4c4d-be0c-923604563357")
-		)
-		(pin "49"
-			(uuid "812be8b2-4942-49ed-8494-097447d55b7c")
-		)
-		(pin "47"
-			(uuid "4b64555b-5772-452e-8c17-2cda6bddc5db")
-		)
-		(pin "46"
-			(uuid "34d08b2d-2982-4c0a-bd3f-e51681cd04b7")
-		)
-		(pin "45"
-			(uuid "beb91f0c-fb0f-422f-81c2-05472fbc66c8")
-		)
-		(pin "4"
-			(uuid "c7997893-15c5-4b4c-aacd-a01ab8f72df6")
-		)
-		(pin "43"
-			(uuid "2e29dcd7-d7cb-4423-aaa5-b07c45994e7e")
-		)
-		(pin "40"
-			(uuid "d89dbd89-dd97-4111-97c1-e032cafe7308")
-		)
-		(pin "30"
-			(uuid "3d025ee8-a99a-49ee-8bf0-a775a6dd6aa7")
-		)
-		(pin "37"
-			(uuid "087c73d6-bbc5-4b15-8a9a-95e8f4ddc43e")
-		)
-		(pin "34"
-			(uuid "7662ee18-e23e-4ec3-a50f-6693aa0b77a0")
-		)
-		(pin "33"
-			(uuid "ce0f71f8-ca04-4790-ab29-e5a0415c1730")
-		)
-		(pin "36"
-			(uuid "95b46659-86df-4cc8-b5f9-8b6251427f0f")
-		)
-		(pin "29"
-			(uuid "e411c20c-004c-4a1b-addd-eaee6eb7868a")
-		)
-		(pin "35"
-			(uuid "d8b1a837-67a4-4dc4-bef6-8fa6ed5a350f")
-		)
-		(pin "31"
-			(uuid "40aa0570-469d-47d5-b058-dc29f9435700")
-		)
-		(pin "32"
-			(uuid "4a06e7ad-5d9f-452a-a09f-46dd2afcd12a")
-		)
-		(pin "28"
-			(uuid "bf42c402-aa67-4091-a49b-58e529f7b359")
-		)
-		(instances
-			(project ""
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3299,6 +2552,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d4480a-f76e-41cb-9b20-f02b887ebe69")
+		(property "Reference" "#PWR049"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50bc143-e0d1-4410-a867-6932938f2269")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265a1e44-6a40-4b28-b14c-1d205c6aa196")
+		(property "Reference" "#PWR050"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1509e516-6f54-4c42-9527-2cb5ef17c81d")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 46.99 44.45 90)
 		(unit 1)
@@ -3366,84 +2753,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45187177-5b1c-4a37-8cf0-09eb9c30dab7")
-		(property "Reference" "#PWR064"
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "832613f7-9e19-47f9-aa2f-9e6badcee56c")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 127 48.26 90)
+		(at 154.94 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "467131f7-2552-4d50-9f4c-a5f5b064f3e5")
-		(property "Reference" "#PWR066"
-			(at 130.81 48.26 0)
+		(uuid "3e3199fb-a295-43b4-9915-68b9350e564e")
+		(property "Reference" "#PWR034"
+			(at 151.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +2772,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 48.2599 90)
+			(at 158.75 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +2781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 48.26 0)
+			(at 154.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +2790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 48.26 0)
+			(at 154.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +2799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 48.26 0)
+			(at 154.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,213 +2808,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "44fa18a7-d7ac-40b4-b3ee-ba569c5f5b20")
+			(uuid "145df2e6-2ebf-49b5-ac11-013975bec4f4")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 168.91 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bdf0a95-4277-4439-bc6c-3e31597bccca")
-		(property "Reference" "#PWR068"
-			(at 165.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 172.72 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffb4c5b-2744-45bc-8820-b51aff619eaf")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "540f0c83-96b2-43a6-b660-0ee43ac120a5")
-		(property "Reference" "#PWR071"
-			(at 130.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d0323e0-0a37-4e6c-b3b3-bb959b87c42a")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "553ade39-39e6-4f9a-99cf-dca1b4eccef9")
-		(property "Reference" "#PWR067"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a7999b1-2cc7-4d6d-81f7-5cfdcf744959")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR067")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3968,6 +3087,351 @@
 		)
 	)
 	(symbol
+		(lib_id "gaia-camera-symbols:W9825G6KH-6")
+		(at 139.7 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837ee22a-80e1-4e62-9d92-ec667782b7f9")
+		(property "Reference" "U3"
+			(at 139.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W9825G6KH-6"
+			(at 139.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Winbond Electronics"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2 mm"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOP-54 Winbond Electronics"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/W9825G6KH-6/Winbond/view-part/?ref=eda"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A05"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W9825G6KH-6/Winbond/view-part/?ref=snap"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "W9825G6KH-6"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SDRAM Memory IC 256Mb (16M x 16) Parallel 166 MHz 5 ns 54-TSOP II"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Winbond"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "df261e1f-9190-4f44-ac54-5dee8c21eea0")
+		)
+		(pin "23"
+			(uuid "8d0df236-ba4e-445a-b3c7-8b92f3a63d43")
+		)
+		(pin "26"
+			(uuid "a907608a-845d-4c31-a7ed-98cee0b4ca3c")
+		)
+		(pin "25"
+			(uuid "30ca9586-15ce-4182-8bec-bb42aa9ea243")
+		)
+		(pin "29"
+			(uuid "65bc618c-0848-4f07-99e5-95d4d8e615d8")
+		)
+		(pin "30"
+			(uuid "a9d3bd35-6835-477b-ade6-fcd8e84972cf")
+		)
+		(pin "31"
+			(uuid "e331b8a7-aaa6-41a0-aaff-eff793c9381d")
+		)
+		(pin "32"
+			(uuid "0e372dd9-26f6-47fc-8905-8b799784bf43")
+		)
+		(pin "33"
+			(uuid "1675a7d9-7495-4c4a-846c-2778ab7cd08f")
+		)
+		(pin "22"
+			(uuid "04d9e0f0-4229-47e5-8e51-d2880c313fbc")
+		)
+		(pin "34"
+			(uuid "147c519a-33a3-4cc9-ae21-a63e5ed95553")
+		)
+		(pin "14"
+			(uuid "c8fe6831-b879-48f1-951b-409c5d5de53e")
+		)
+		(pin "36"
+			(uuid "532059e6-10db-4aed-a01f-774294093d32")
+		)
+		(pin "7"
+			(uuid "610bbc1d-cb7b-4f51-9503-88dd346ab3c9")
+		)
+		(pin "17"
+			(uuid "4f45c072-fa33-4807-bc46-744796675c1a")
+		)
+		(pin "11"
+			(uuid "469d8bd9-f9a8-4d2f-b08d-a969eaa0f5d1")
+		)
+		(pin "42"
+			(uuid "5c516c14-3424-4a98-aa43-48240ca40dd2")
+		)
+		(pin "45"
+			(uuid "d93d3497-98e8-4bc9-8677-c4d58b692069")
+		)
+		(pin "19"
+			(uuid "0eeef2f4-7621-4098-a10e-5c4d435c4a85")
+		)
+		(pin "50"
+			(uuid "7f54f92c-f302-4026-82a8-9a82f1bf7753")
+		)
+		(pin "35"
+			(uuid "5cea7daa-abd4-4526-b078-9174ece5120f")
+		)
+		(pin "15"
+			(uuid "f855621a-5a9b-434a-9ccc-fe0b23f1dde4")
+		)
+		(pin "1"
+			(uuid "cbe294bb-896f-4b59-bad9-024d6a137445")
+		)
+		(pin "27"
+			(uuid "9589f11d-a5a1-4cd5-b8fd-b9d16acb429a")
+		)
+		(pin "2"
+			(uuid "fafb57d7-48b4-4363-840a-167009599197")
+		)
+		(pin "37"
+			(uuid "bea8805b-e95f-4ddb-9edf-7dbb3ae4e9bb")
+		)
+		(pin "20"
+			(uuid "efbf7c4e-f9c7-446a-bcd8-ec14586bcedd")
+		)
+		(pin "18"
+			(uuid "d3da7b85-b7ef-42b5-bfa1-fe6fb27f5170")
+		)
+		(pin "21"
+			(uuid "b236eb35-25ae-49ad-b364-c8b9a877091d")
+		)
+		(pin "39"
+			(uuid "20e829a7-c791-48f6-8905-6487fc00cef1")
+		)
+		(pin "3"
+			(uuid "fdcf1366-f8c8-404d-ae3d-82c3fdf80aa4")
+		)
+		(pin "43"
+			(uuid "c01956ee-ab75-4c24-b222-3c12146e97d7")
+		)
+		(pin "38"
+			(uuid "0e3b76be-6a4f-45e7-8c42-6e7cd8b17783")
+		)
+		(pin "49"
+			(uuid "b8c5a556-66a4-480c-808d-56ba28234648")
+		)
+		(pin "9"
+			(uuid "53bcfd51-05b3-4f86-b8c1-2faf608ed363")
+		)
+		(pin "16"
+			(uuid "a2db2a9e-9057-4dec-9210-5f9a88663a14")
+		)
+		(pin "4"
+			(uuid "cf07fa21-26fd-4b51-9e5a-58ff4d6fd29f")
+		)
+		(pin "5"
+			(uuid "c6178d31-731f-43e3-9171-fae4f465bab5")
+		)
+		(pin "8"
+			(uuid "30420780-b16e-461a-aff8-f2bf123ad052")
+		)
+		(pin "10"
+			(uuid "585adc0b-ab04-4d2a-9587-a2ee765f8f8e")
+		)
+		(pin "13"
+			(uuid "6a7a9e51-ce62-4bd3-8869-af343964ce59")
+		)
+		(pin "44"
+			(uuid "bad6b8a7-b84c-47fd-8060-cea7e64554a8")
+		)
+		(pin "47"
+			(uuid "841c61df-7b70-45b2-b0e3-e20fe395c3b6")
+		)
+		(pin "48"
+			(uuid "8b1e288c-b333-460f-9c69-95fb318e0ae9")
+		)
+		(pin "12"
+			(uuid "70e9dd0f-906a-42e6-ae90-c1750dcf3503")
+		)
+		(pin "54"
+			(uuid "cdd6b6df-855c-4c35-9ceb-b6b905b993d9")
+		)
+		(pin "46"
+			(uuid "8a741c7a-43c5-4160-8fd3-52036d8086e2")
+		)
+		(pin "53"
+			(uuid "4cc47e36-89a4-4693-a37b-816fd7d67ff5")
+		)
+		(pin "52"
+			(uuid "8fe4ce1e-339e-4f0b-9838-5f602bff17ff")
+		)
+		(pin "51"
+			(uuid "70983d16-c9e6-4fb9-b90c-c6db86b2ce42")
+		)
+		(pin "40"
+			(uuid "27ac11ec-08fc-4ff6-a362-9c4ed0bd8402")
+		)
+		(pin "28"
+			(uuid "a2437629-4f91-4ee0-827d-a05af1ce78cd")
+		)
+		(pin "6"
+			(uuid "f8a3665d-6798-445b-8614-d558b2103c29")
+		)
+		(pin "41"
+			(uuid "9966af5b-3713-4032-a0b8-ac3a6a8636cf")
+		)
+		(instances
+			(project ""
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 41.91 78.74 90)
 		(unit 1)
@@ -4101,151 +3565,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0c1717e-8c4a-4b28-ab63-454f6be1b88f")
-		(property "Reference" "#PWR010"
-			(at 175.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be10ce2b-56ac-479e-abaf-10f72e3ec685")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b17c2faa-6a67-4699-a508-d82bd7f2bd8c")
-		(property "Reference" "#PWR08"
-			(at 175.26 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "042a5896-14a4-4e6d-a552-ef94efc35b40")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 40.64 270)
+		(at 154.94 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfab808d-facf-4622-9ce7-d6a4cc2d867a")
-		(property "Reference" "#PWR069"
-			(at 165.1 40.64 0)
+		(uuid "b39e2a80-b6ff-478a-97ef-7d204da2ffcb")
+		(property "Reference" "#PWR033"
+			(at 151.13 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3584,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 172.72 40.6399 90)
+			(at 158.75 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +3593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 40.64 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +3602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 40.64 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +3611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 40.64 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,146 +3620,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcebdb80-5ca3-4876-98df-a5de303ba61f")
+			(uuid "a03b951d-0363-43ba-99af-c50e35d99c26")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cca8a1d8-0f42-4aaf-a85a-891128e4030b")
-		(property "Reference" "#PWR011"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d236e52a-d746-4a6b-9b4f-679107666329")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d838fea3-d00e-48e1-9894-d57f0edc75b1")
-		(property "Reference" "#PWR05"
-			(at 175.26 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e52ab70-a0ec-4a24-88f2-7238dfd95f33")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR05")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4497,140 +3693,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1215c6a-a30a-4cfa-ae40-2a31056c6610")
-		(property "Reference" "#PWR063"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "693a237c-9ac0-47c3-8c83-f2b24b0ae120")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eacdab4c-4dfc-4d4e-883d-800e7c28b087")
-		(property "Reference" "#PWR065"
-			(at 130.81 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1e8953e-b078-4533-b29b-c3b4a61304c6")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
