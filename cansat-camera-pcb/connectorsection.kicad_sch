@@ -1457,10 +1457,6 @@
 		(uuid "fe010dd7-2093-4901-8ada-61ce5c606675")
 	)
 	(no_connect
-		(at 77.47 60.96)
-		(uuid "00194fb1-029e-496f-9477-4c97201a000d")
-	)
-	(no_connect
 		(at 77.47 58.42)
 		(uuid "0329cd07-147c-4391-8bab-1ee5b8827b09")
 	)
@@ -1551,10 +1547,6 @@
 	(no_connect
 		(at 109.22 55.88)
 		(uuid "e1c8fd4d-7790-48c3-9c2f-be16aa5e3438")
-	)
-	(no_connect
-		(at 64.77 66.04)
-		(uuid "f11ed7ab-47fc-4acd-b53a-37a615797f5c")
 	)
 	(no_connect
 		(at 64.77 58.42)
@@ -1700,8 +1692,8 @@
 		)
 		(uuid "f0961439-dfc9-4ac7-84c5-3857042aaec8")
 	)
-	(hierarchical_label "OBC_UART_Tx"
-		(shape output)
+	(hierarchical_label "OBC_UART_Rx"
+		(shape input)
 		(at 77.47 63.5 0)
 		(effects
 			(font
@@ -1709,7 +1701,18 @@
 			)
 			(justify left)
 		)
-		(uuid "335fd8a2-f81a-4fff-8dc1-637f38b63d14")
+		(uuid "10745cad-63c4-4abe-9979-64dbe609dc60")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 64.77 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13b992f8-349d-4077-b586-4f847c11d15f")
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
@@ -1733,6 +1736,28 @@
 		)
 		(uuid "bc600d56-5411-445c-9625-6ab3571ca25b")
 	)
+	(hierarchical_label "OBC_UART_Tx"
+		(shape output)
+		(at 77.47 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf1cf309-8508-4a74-a795-29c07daa7255")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 77.47 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cef35346-faed-4a83-af97-0a2acd1f292b")
+	)
 	(hierarchical_label "SWCLK"
 		(shape bidirectional)
 		(at 44.45 102.87 0)
@@ -1743,17 +1768,6 @@
 			(justify left)
 		)
 		(uuid "d940e172-504b-40ee-b7c0-3f2cfd4b0a8d")
-	)
-	(hierarchical_label "OBC_UART_Rx"
-		(shape input)
-		(at 77.47 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8f7bc1a-9412-4378-a560-5539056f8267")
 	)
 	(symbol
 		(lib_id "power:VCC")

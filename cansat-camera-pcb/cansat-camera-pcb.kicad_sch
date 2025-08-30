@@ -4900,10 +4900,6 @@
 		(uuid "22becbd3-c030-4cdd-b400-19a2958d324b")
 	)
 	(no_connect
-		(at 123.19 148.59)
-		(uuid "296b866e-5fc8-464f-bbf4-c82cbc163464")
-	)
-	(no_connect
 		(at 123.19 123.19)
 		(uuid "2e9db2fd-e440-4b25-9635-aacd81e285e4")
 	)
@@ -5010,10 +5006,6 @@
 	(no_connect
 		(at 123.19 209.55)
 		(uuid "b29a8616-2433-45e1-8343-ab0b9dd5e382")
-	)
-	(no_connect
-		(at 123.19 151.13)
-		(uuid "c1580aaf-1e1d-4b7b-89c1-c2b23f6ceded")
 	)
 	(no_connect
 		(at 57.15 128.27)
@@ -5553,6 +5545,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 212.09) (xy 158.75 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28151e57-5dcc-4359-8fe4-d4bfc10c2006")
+	)
+	(wire
+		(pts
 			(xy 74.93 57.15) (xy 77.47 57.15)
 		)
 		(stroke
@@ -5670,6 +5672,16 @@
 			(type default)
 		)
 		(uuid "38063a06-65c7-48ce-88f2-4de3371515d2")
+	)
+	(wire
+		(pts
+			(xy 157.48 207.01) (xy 158.75 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3875fa57-0067-42d3-95f9-eaaaac73d79f")
 	)
 	(wire
 		(pts
@@ -6000,6 +6012,16 @@
 			(type default)
 		)
 		(uuid "5bb316fc-4742-4699-939a-1d3564397a64")
+	)
+	(wire
+		(pts
+			(xy 157.48 209.55) (xy 158.75 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5a5029-0e9d-4750-9002-3333e1845525")
 	)
 	(wire
 		(pts
@@ -6480,16 +6502,6 @@
 			(type default)
 		)
 		(uuid "8e43a279-5634-41ca-9d69-79725799ff9a")
-	)
-	(wire
-		(pts
-			(xy 157.48 209.55) (xy 158.75 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f370b9d-5a79-4fc5-ae5f-89653a0f7750")
 	)
 	(wire
 		(pts
@@ -7123,7 +7135,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 207.01) (xy 158.75 207.01)
+			(xy 157.48 204.47) (xy 158.75 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7671,6 +7683,16 @@
 		)
 		(uuid "1b0d7e68-5875-477a-bb25-0c7aff555373")
 	)
+	(label "usb_dm"
+		(at 157.48 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b5dd609-7861-4568-952e-51d9f631ef9f")
+	)
 	(label "VREF_PIN"
 		(at 55.88 80.01 180)
 		(effects
@@ -7890,6 +7912,26 @@
 			(justify left bottom)
 		)
 		(uuid "437a3f97-9bca-465d-9299-850cc2aa4378")
+	)
+	(label "usb_dp"
+		(at 157.48 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45853ee9-da44-4953-ba67-4325638fbd05")
+	)
+	(label "usb_dp"
+		(at 123.19 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45c55a85-b0d5-4efd-a63b-4f6091c99405")
 	)
 	(label "FMC_SDCKE0"
 		(at 124.46 163.83 0)
@@ -8232,7 +8274,7 @@
 		(uuid "85218554-b55d-461b-9531-4abb3e460ef2")
 	)
 	(label "UART4_RX"
-		(at 157.48 209.55 180)
+		(at 157.48 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8260,6 +8302,16 @@
 			(justify left bottom)
 		)
 		(uuid "86a99703-398b-4c13-be0b-07a6072eaf8e")
+	)
+	(label "usb_dm"
+		(at 123.19 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "875c21b6-f4e0-4943-9ab4-faa48c632ab5")
 	)
 	(label "FMC_D3"
 		(at 158.75 53.34 180)
@@ -8502,7 +8554,7 @@
 		(uuid "ae64f309-3b00-4ff4-aa3d-1583648cab8c")
 	)
 	(label "UART4_TX"
-		(at 157.48 207.01 180)
+		(at 157.48 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12736,16 +12788,6 @@
 				(justify left top)
 			)
 		)
-		(pin "OBC_UART_Rx" input
-			(at 158.75 209.55 180)
-			(uuid "8be6c8eb-cb09-4cf3-8b6f-a6f5fe6cd613")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BOOT0" input
 			(at 190.5 205.74 0)
 			(uuid "3dcad19b-bfa5-42f0-bfd1-b9e5a310f723")
@@ -12777,8 +12819,38 @@
 			)
 		)
 		(pin "OBC_UART_Tx" output
-			(at 158.75 207.01 180)
+			(at 158.75 204.47 180)
 			(uuid "51cb2d0e-5189-416e-8d86-1ca50e136813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 158.75 209.55 180)
+			(uuid "ebedaaa6-7784-4716-846d-b5e122bd0d01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 158.75 212.09 180)
+			(uuid "0ff2e72e-2fe3-4f1d-a399-8ef4b4694575")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OBC_UART_Rx" input
+			(at 158.75 207.01 180)
+			(uuid "013917e6-ccd9-4a6a-a849-724836aab6be")
 			(effects
 				(font
 					(size 1.27 1.27)
