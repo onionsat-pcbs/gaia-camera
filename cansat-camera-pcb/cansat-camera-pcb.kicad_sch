@@ -4507,8 +4507,8 @@
 		(uuid 441967fd-bdee-4f9f-92e8-f9614e051525)
 	)
 	(rectangle
-		(start 144.78 191.77)
-		(end 204.47 226.06)
+		(start 144.78 160.02)
+		(end 204.47 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -4529,18 +4529,6 @@
 			(type none)
 		)
 		(uuid 603419e3-35e8-4aed-8af6-c8260685a4eb)
-	)
-	(rectangle
-		(start 144.78 160.02)
-		(end 204.47 191.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e1726a39-2c45-4120-9816-10a7fa5103cb)
 	)
 	(rectangle
 		(start 19.05 17.78)
@@ -4600,24 +4588,13 @@
 	)
 	(text "CONNECTOR"
 		(exclude_from_sim no)
-		(at 154.432 224.028 0)
+		(at 154.432 192.278 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 			)
 		)
 		(uuid "bf013059-7f01-4e6c-8e42-5f9502e528e4")
-	)
-	(text "SDCARD"
-		(exclude_from_sim no)
-		(at 151.384 189.738 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "d5d3408e-94da-410e-998a-c5cb041b0ed5")
 	)
 	(junction
 		(at 100.33 57.15)
@@ -5055,26 +5032,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 172.72) (xy 162.56 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c4414a-2707-4eb8-ae31-3957eb75ecec")
-	)
-	(wire
-		(pts
-			(xy 161.29 175.26) (xy 162.56 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b981a8-e2e2-4b49-9552-4ffcf7078572")
-	)
-	(wire
-		(pts
 			(xy 82.55 57.15) (xy 82.55 59.69)
 		)
 		(stroke
@@ -5205,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 205.74) (xy 190.5 205.74)
+			(xy 191.77 173.99) (xy 190.5 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5255,16 +5212,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 177.8) (xy 162.56 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12301efb-f841-46fc-81cb-632e07b60059")
-	)
-	(wire
-		(pts
 			(xy 55.88 209.55) (xy 57.15 209.55)
 		)
 		(stroke
@@ -5275,7 +5222,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 208.28) (xy 191.77 208.28)
+			(xy 190.5 176.53) (xy 191.77 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5545,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 212.09) (xy 158.75 212.09)
+			(xy 157.48 180.34) (xy 158.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 207.01) (xy 158.75 207.01)
+			(xy 157.48 175.26) (xy 158.75 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5742,16 +5689,6 @@
 			(type default)
 		)
 		(uuid "3d15c893-c14f-4e11-a389-95a0493105ca")
-	)
-	(wire
-		(pts
-			(xy 185.42 170.18) (xy 186.69 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d21b82d-5f39-4605-8884-14546dd43557")
 	)
 	(wire
 		(pts
@@ -6015,7 +5952,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 209.55) (xy 158.75 209.55)
+			(xy 157.48 177.8) (xy 158.75 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6032,16 +5969,6 @@
 			(type default)
 		)
 		(uuid "5c6a6444-f13b-413d-9f77-aaa6945cf817")
-	)
-	(wire
-		(pts
-			(xy 161.29 170.18) (xy 162.56 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d871d59-2cb5-4c95-bf4a-3c2a8822b79d")
 	)
 	(wire
 		(pts
@@ -6065,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 210.82) (xy 191.77 210.82)
+			(xy 190.5 179.07) (xy 191.77 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6372,16 +6299,6 @@
 			(type default)
 		)
 		(uuid "81b75b64-dae5-4096-b0c9-97d5d846db16")
-	)
-	(wire
-		(pts
-			(xy 185.42 172.72) (xy 186.69 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837d8a57-9622-414c-9da8-9c41315dfc65")
 	)
 	(wire
 		(pts
@@ -7135,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 204.47) (xy 158.75 204.47)
+			(xy 157.48 172.72) (xy 158.75 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7395,16 +7312,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 175.26) (xy 185.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bfe41a-1ee6-4a1b-9aa1-c76c36fed46f")
-	)
-	(wire
-		(pts
 			(xy 184.15 96.52) (xy 185.42 96.52)
 		)
 		(stroke
@@ -7573,16 +7480,6 @@
 		)
 		(uuid "0b7064bc-6823-430c-b822-8327c1170539")
 	)
-	(label "SDMMC1_DAT2"
-		(at 161.29 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c579de5-d26a-424d-aaa0-f4fd6f175b7b")
-	)
 	(label "I2C1_SDA"
 		(at 124.46 130.81 0)
 		(effects
@@ -7683,8 +7580,8 @@
 		)
 		(uuid "1b0d7e68-5875-477a-bb25-0c7aff555373")
 	)
-	(label "usb_dm"
-		(at 157.48 212.09 180)
+	(label "usb_dn"
+		(at 157.48 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7903,18 +7800,8 @@
 		)
 		(uuid "4259d0f9-73a7-4df9-8e76-0b83a8dad5cc")
 	)
-	(label "SDMMC1_CMD"
-		(at 186.69 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "437a3f97-9bca-465d-9299-850cc2aa4378")
-	)
 	(label "usb_dp"
-		(at 157.48 209.55 180)
+		(at 157.48 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7974,7 +7861,7 @@
 		(uuid "476611a1-4b02-45f9-91b4-9f1b982eabbd")
 	)
 	(label "BOOT0"
-		(at 191.77 205.74 0)
+		(at 191.77 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,16 +7949,6 @@
 			(justify right bottom)
 		)
 		(uuid "5dd1e26a-62bb-4d5d-9c6a-a540200bc00c")
-	)
-	(label "SDCARD_INSERTED"
-		(at 186.69 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fa719c7-cfc5-493d-b440-b018cf5a0f90")
 	)
 	(label "OV5640_PWDN"
 		(at 124.46 90.17 0)
@@ -8162,16 +8039,6 @@
 			(justify left bottom)
 		)
 		(uuid "70eb2828-7c06-4d53-9431-7b99da903efd")
-	)
-	(label "SDMMC1_DAT1"
-		(at 161.29 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "711aaa9f-fc57-40f6-bca5-256fac0c2e48")
 	)
 	(label "VDDA_PIN"
 		(at 107.95 55.88 90)
@@ -8274,7 +8141,7 @@
 		(uuid "85218554-b55d-461b-9531-4abb3e460ef2")
 	)
 	(label "UART4_RX"
-		(at 157.48 207.01 180)
+		(at 157.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8303,7 +8170,7 @@
 		)
 		(uuid "86a99703-398b-4c13-be0b-07a6072eaf8e")
 	)
-	(label "usb_dm"
+	(label "usb_dn"
 		(at 123.19 148.59 0)
 		(effects
 			(font
@@ -8463,16 +8330,6 @@
 		)
 		(uuid "a0d34dcc-01b6-484b-8f43-d2ff8b08156c")
 	)
-	(label "SDMMC1_CK"
-		(at 186.69 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0fc54f4-5ea9-47eb-b748-aab76bdac229")
-	)
 	(label "SDMMC1_CMD"
 		(at 124.46 204.47 0)
 		(effects
@@ -8494,7 +8351,7 @@
 		(uuid "a1413c38-6465-434a-bc7d-3fca70929502")
 	)
 	(label "SWCLK"
-		(at 191.77 210.82 0)
+		(at 191.77 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,18 +8400,8 @@
 		)
 		(uuid "ad18a7fd-37e0-47fc-9786-b18fbc389e6e")
 	)
-	(label "SDMMC1_DAT3"
-		(at 161.29 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ae64f309-3b00-4ff4-aa3d-1583648cab8c")
-	)
 	(label "UART4_TX"
-		(at 157.48 204.47 180)
+		(at 157.48 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8572,16 +8419,6 @@
 			(justify left bottom)
 		)
 		(uuid "aed20511-7ec2-4944-9bf8-5925a8b7c2a8")
-	)
-	(label "SDMMC1_DAT0"
-		(at 161.29 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0a4ac92-8a3b-4d77-9f00-e5812171e340")
 	)
 	(label "FMC_SDNWE"
 		(at 124.46 156.21 0)
@@ -8904,7 +8741,7 @@
 		(uuid "ebab5423-69f4-4372-be9d-30d7a5296e3e")
 	)
 	(label "SWDIO"
-		(at 191.77 208.28 0)
+		(at 191.77 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12755,7 +12592,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 200.66)
+		(at 158.75 168.91)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12771,7 +12608,7 @@
 		)
 		(uuid "57ec086e-7f36-42c3-890c-c3ddf337b5b8")
 		(property "Sheetname" "Connector section"
-			(at 158.75 199.9484 0)
+			(at 158.75 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,7 +12617,7 @@
 			)
 		)
 		(property "Sheetfile" "connectorsection.kicad_sch"
-			(at 158.75 216.4846 0)
+			(at 158.75 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12626,7 @@
 			)
 		)
 		(pin "BOOT0" input
-			(at 190.5 205.74 0)
+			(at 190.5 173.99 0)
 			(uuid "3dcad19b-bfa5-42f0-bfd1-b9e5a310f723")
 			(effects
 				(font
@@ -12799,7 +12636,7 @@
 			)
 		)
 		(pin "SWDIO" bidirectional
-			(at 190.5 208.28 0)
+			(at 190.5 176.53 0)
 			(uuid "ad3d852d-ac77-4ac3-8df7-70b0e9bfa7a6")
 			(effects
 				(font
@@ -12809,7 +12646,7 @@
 			)
 		)
 		(pin "SWCLK" bidirectional
-			(at 190.5 210.82 0)
+			(at 190.5 179.07 0)
 			(uuid "eae443b8-5062-4c4d-ae63-aa48f995e6be")
 			(effects
 				(font
@@ -12819,7 +12656,7 @@
 			)
 		)
 		(pin "OBC_UART_Tx" output
-			(at 158.75 204.47 180)
+			(at 158.75 172.72 180)
 			(uuid "51cb2d0e-5189-416e-8d86-1ca50e136813")
 			(effects
 				(font
@@ -12828,29 +12665,29 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DP" bidirectional
-			(at 158.75 209.55 180)
-			(uuid "ebedaaa6-7784-4716-846d-b5e122bd0d01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DM" bidirectional
-			(at 158.75 212.09 180)
-			(uuid "0ff2e72e-2fe3-4f1d-a399-8ef4b4694575")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OBC_UART_Rx" input
-			(at 158.75 207.01 180)
+			(at 158.75 175.26 180)
 			(uuid "013917e6-ccd9-4a6a-a849-724836aab6be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "usb_dn" bidirectional
+			(at 158.75 180.34 180)
+			(uuid "d5f1f7ff-1989-418e-b277-b23f02b79981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "usb_dp" bidirectional
+			(at 158.75 177.8 180)
+			(uuid "94843598-6d44-4c7d-9d7a-514e3e3d1260")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,118 +12699,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 162.56 165.1)
-		(size 22.86 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "760285dc-eb2d-443a-af4c-c46394a132d5")
-		(property "Sheetname" "sdcard"
-			(at 162.56 164.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sdcard.kicad_sch"
-			(at 162.56 183.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 185.42 172.72 0)
-			(uuid "2c66f879-bcad-4ee7-b71e-f9f3240f06ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CMD" bidirectional
-			(at 185.42 170.18 0)
-			(uuid "32797677-eae5-4d0a-b3e4-2d9e67e6fc17")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAT0" bidirectional
-			(at 162.56 170.18 180)
-			(uuid "0ff2ff7f-c004-405a-b21c-25dc41e616f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAT1" bidirectional
-			(at 162.56 172.72 180)
-			(uuid "4b99a971-278d-49d3-b557-fa3401112b0c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAT2" bidirectional
-			(at 162.56 175.26 180)
-			(uuid "8cc43620-5718-4bc0-983f-2e5e943b6c9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAT3" bidirectional
-			(at 162.56 177.8 180)
-			(uuid "0d6cd456-37aa-41a5-bb69-678029632204")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INSERTED" output
-			(at 185.42 175.26 0)
-			(uuid "4391bd47-c151-4d86-88a2-75d3df457a0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889"
-					(page "3")
 				)
 			)
 		)
