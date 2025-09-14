@@ -7580,7 +7580,7 @@
 		)
 		(uuid "1b0d7e68-5875-477a-bb25-0c7aff555373")
 	)
-	(label "usb_dn"
+	(label "usb_DN"
 		(at 157.48 180.34 180)
 		(effects
 			(font
@@ -7800,7 +7800,7 @@
 		)
 		(uuid "4259d0f9-73a7-4df9-8e76-0b83a8dad5cc")
 	)
-	(label "usb_dp"
+	(label "usb_DP"
 		(at 157.48 177.8 180)
 		(effects
 			(font
@@ -7810,7 +7810,7 @@
 		)
 		(uuid "45853ee9-da44-4953-ba67-4325638fbd05")
 	)
-	(label "usb_dp"
+	(label "usb_DP"
 		(at 123.19 151.13 0)
 		(effects
 			(font
@@ -8170,7 +8170,7 @@
 		)
 		(uuid "86a99703-398b-4c13-be0b-07a6072eaf8e")
 	)
-	(label "usb_dn"
+	(label "usb_DN"
 		(at 123.19 148.59 0)
 		(effects
 			(font
@@ -12675,9 +12675,9 @@
 				(justify left)
 			)
 		)
-		(pin "usb_dn" bidirectional
+		(pin "usb_DN" bidirectional
 			(at 158.75 180.34 180)
-			(uuid "d5f1f7ff-1989-418e-b277-b23f02b79981")
+			(uuid "a932b1fa-49f9-4fd3-b46d-695df516c202")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,9 +12685,9 @@
 				(justify left)
 			)
 		)
-		(pin "usb_dp" bidirectional
+		(pin "usb_DP" bidirectional
 			(at 158.75 177.8 180)
-			(uuid "94843598-6d44-4c7d-9d7a-514e3e3d1260")
+			(uuid "116690ab-6583-4415-b871-388feb41c2ed")
 			(effects
 				(font
 					(size 1.27 1.27)

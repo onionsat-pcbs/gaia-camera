@@ -551,7 +551,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Adress",
         "pcb_color": "rgb(255, 150, 36)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -568,7 +568,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Clock",
         "pcb_color": "rgb(96, 255, 114)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -585,7 +585,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Command",
         "pcb_color": "rgb(243, 46, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -602,12 +602,20 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_DQ",
         "pcb_color": "rgb(255, 50, 110)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1262,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -655,6 +663,14 @@
       {
         "netclass": "SDRAM_Command",
         "pattern": "*FMC_SDCKE0*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/usb_DN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/usb_DP"
       }
     ]
   },
