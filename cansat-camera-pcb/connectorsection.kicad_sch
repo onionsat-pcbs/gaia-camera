@@ -1469,20 +1469,12 @@
 		(uuid "299d875d-b2db-4301-9787-da2b0ef011ec")
 	)
 	(no_connect
-		(at 121.92 60.96)
-		(uuid "2a789fc0-f812-4b79-a106-16d54c32af3d")
-	)
-	(no_connect
 		(at 109.22 53.34)
 		(uuid "2fdd12e7-3cfa-42f5-bafe-52a15bab1d6f")
 	)
 	(no_connect
 		(at 121.92 48.26)
 		(uuid "3266f1b9-7260-4189-a95b-7971a61fe799")
-	)
-	(no_connect
-		(at 109.22 60.96)
-		(uuid "3ca98cd0-0582-4597-be07-e6bc93d8ebd6")
 	)
 	(no_connect
 		(at 121.92 53.34)
@@ -1614,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d4c437-296e-495f-ace9-601853b2561f")
+	)
+	(wire
+		(pts
 			(xy 39.37 102.87) (xy 39.37 113.03)
 		)
 		(stroke
@@ -1631,6 +1633,16 @@
 			(type default)
 		)
 		(uuid "9647e943-f72a-49dc-b1ca-ecee8a47cb97")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6a98dc-23b5-4a84-a47c-2b5ac665eb45")
 	)
 	(wire
 		(pts
@@ -1692,6 +1704,17 @@
 		)
 		(uuid "f0961439-dfc9-4ac7-84c5-3857042aaec8")
 	)
+	(hierarchical_label "reset"
+		(shape output)
+		(at 123.19 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0233298c-bd6f-455d-be16-cd043f17f06c")
+	)
 	(hierarchical_label "OBC_UART_Rx"
 		(shape input)
 		(at 77.47 63.5 0)
@@ -1724,6 +1747,17 @@
 			(justify right)
 		)
 		(uuid "35d18f71-f2f9-4ce1-91ae-2a43495745e5")
+	)
+	(hierarchical_label "pwrkey"
+		(shape output)
+		(at 107.95 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc9c021-745c-4687-af8c-f22b0d85ca81")
 	)
 	(hierarchical_label "BOOT0"
 		(shape input)

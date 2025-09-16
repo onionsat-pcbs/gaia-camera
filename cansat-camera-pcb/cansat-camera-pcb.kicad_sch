@@ -4857,10 +4857,6 @@
 		(uuid "0c3071c6-209c-46bf-afc1-1592e1805d66")
 	)
 	(no_connect
-		(at 57.15 189.23)
-		(uuid "0c7b8bca-5292-408b-8638-c9d2641b4f22")
-	)
-	(no_connect
 		(at 57.15 115.57)
 		(uuid "0ca1ea39-9658-4f9d-9977-3f343019b822")
 	)
@@ -4971,10 +4967,6 @@
 	(no_connect
 		(at 123.19 168.91)
 		(uuid "aa687d25-75a4-4551-8733-2bc3ba101b00")
-	)
-	(no_connect
-		(at 57.15 191.77)
-		(uuid "aaa0a8bf-0719-4f35-abf2-28d83cb21948")
 	)
 	(no_connect
 		(at 123.19 125.73)
@@ -5162,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 173.99) (xy 190.5 173.99)
+			(xy 191.77 171.45) (xy 190.5 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5222,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 176.53) (xy 191.77 176.53)
+			(xy 190.5 173.99) (xy 191.77 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5832,6 +5824,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 191.77) (xy 57.15 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdaadd9-4436-4254-b575-3a59cb27bc60")
+	)
+	(wire
+		(pts
 			(xy 55.88 219.71) (xy 57.15 219.71)
 		)
 		(stroke
@@ -5992,7 +5994,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 179.07) (xy 191.77 179.07)
+			(xy 55.88 189.23) (xy 57.15 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fffbfa9-d9c2-417c-b86e-d42e519971f7")
+	)
+	(wire
+		(pts
+			(xy 190.5 176.53) (xy 191.77 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6582,6 +6594,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 179.07) (xy 191.77 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5fa610-31ab-4bff-9ffc-56ecdae56cfb")
+	)
+	(wire
+		(pts
 			(xy 184.15 99.06) (xy 185.42 99.06)
 		)
 		(stroke
@@ -6619,6 +6641,16 @@
 			(type default)
 		)
 		(uuid "a1329e78-cdcd-44f0-9be5-12fc329cdfae")
+	)
+	(wire
+		(pts
+			(xy 190.5 181.61) (xy 191.77 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ed45f9-aa95-462c-aad5-29d5f9489517")
 	)
 	(wire
 		(pts
@@ -7590,6 +7622,16 @@
 		)
 		(uuid "1b5dd609-7861-4568-952e-51d9f631ef9f")
 	)
+	(label "LTE_reset"
+		(at 191.77 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf65b82-dda6-4215-ba21-1498ec649367")
+	)
 	(label "VREF_PIN"
 		(at 55.88 80.01 180)
 		(effects
@@ -7760,6 +7802,16 @@
 		)
 		(uuid "3b9d5f0a-8838-439c-a349-be44cff513d8")
 	)
+	(label "LTE_pwrkey"
+		(at 55.88 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ced51ab-b706-4f9d-b0e4-696e58ee67b7")
+	)
 	(label "FMC_A6"
 		(at 55.88 171.45 180)
 		(effects
@@ -7861,7 +7913,7 @@
 		(uuid "476611a1-4b02-45f9-91b4-9f1b982eabbd")
 	)
 	(label "BOOT0"
-		(at 191.77 173.99 0)
+		(at 191.77 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8039,6 +8091,16 @@
 			(justify left bottom)
 		)
 		(uuid "70eb2828-7c06-4d53-9431-7b99da903efd")
+	)
+	(label "LTE_pwrkey"
+		(at 191.77 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7130da07-217e-4e45-b3da-439617dace9f")
 	)
 	(label "VDDA_PIN"
 		(at 107.95 55.88 90)
@@ -8351,7 +8413,7 @@
 		(uuid "a1413c38-6465-434a-bc7d-3fca70929502")
 	)
 	(label "SWCLK"
-		(at 191.77 179.07 0)
+		(at 191.77 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8740,8 +8802,18 @@
 		)
 		(uuid "ebab5423-69f4-4372-be9d-30d7a5296e3e")
 	)
+	(label "LTE_reset"
+		(at 55.88 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef9d362d-e9c6-4b07-b504-eb54e4b2c27e")
+	)
 	(label "SWDIO"
-		(at 191.77 176.53 0)
+		(at 191.77 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12626,7 +12698,7 @@
 			)
 		)
 		(pin "BOOT0" input
-			(at 190.5 173.99 0)
+			(at 190.5 171.45 0)
 			(uuid "3dcad19b-bfa5-42f0-bfd1-b9e5a310f723")
 			(effects
 				(font
@@ -12636,7 +12708,7 @@
 			)
 		)
 		(pin "SWDIO" bidirectional
-			(at 190.5 176.53 0)
+			(at 190.5 173.99 0)
 			(uuid "ad3d852d-ac77-4ac3-8df7-70b0e9bfa7a6")
 			(effects
 				(font
@@ -12646,7 +12718,7 @@
 			)
 		)
 		(pin "SWCLK" bidirectional
-			(at 190.5 179.07 0)
+			(at 190.5 176.53 0)
 			(uuid "eae443b8-5062-4c4d-ae63-aa48f995e6be")
 			(effects
 				(font
@@ -12693,6 +12765,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "reset" output
+			(at 190.5 179.07 0)
+			(uuid "a2d56118-26d0-4c0e-ae22-eb4017fbaaab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pwrkey" output
+			(at 190.5 181.61 0)
+			(uuid "b74b8186-6853-4970-95ae-e536bfaff099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
