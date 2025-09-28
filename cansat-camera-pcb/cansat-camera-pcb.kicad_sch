@@ -4881,10 +4881,6 @@
 		(uuid "39b925ca-0d4a-4bdd-8706-790a50af663c")
 	)
 	(no_connect
-		(at 57.15 102.87)
-		(uuid "3b24dcde-b4d9-41c5-b112-dc39428ce62f")
-	)
-	(no_connect
 		(at 123.19 82.55)
 		(uuid "3c8f9f74-5178-498a-abac-305e6e3b934c")
 	)
@@ -4979,6 +4975,10 @@
 	(no_connect
 		(at 57.15 128.27)
 		(uuid "c60e0204-64e3-4e6a-9877-5661642da9ef")
+	)
+	(no_connect
+		(at 57.15 156.21)
+		(uuid "c69d81c5-bf44-4778-87b9-b062e3924802")
 	)
 	(no_connect
 		(at 123.19 191.77)
@@ -6994,6 +6994,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 102.87) (xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95865d3-f197-4756-92ae-62c58ce1e16c")
+	)
+	(wire
+		(pts
 			(xy 39.37 228.6) (xy 39.37 231.14)
 		)
 		(stroke
@@ -7732,6 +7742,16 @@
 		)
 		(uuid "2d26af2d-f52b-48ce-8566-1eff9073ea10")
 	)
+	(label "FMC_A12"
+		(at 55.88 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2da98748-dfb8-45cc-9958-b811feb34892")
+	)
 	(label "USART2_TX"
 		(at 124.46 74.93 0)
 		(effects
@@ -8192,7 +8212,7 @@
 		)
 		(uuid "821db309-a717-41a3-884b-cf8756f61760")
 	)
-	(label "FMC_A10"
+	(label "FMC_A11"
 		(at 185.42 73.66 0)
 		(effects
 			(font
@@ -8492,7 +8512,7 @@
 		)
 		(uuid "b32343a7-01df-4b8b-a2aa-e68a42546174")
 	)
-	(label "FMC_AP"
+	(label "FMC_A10"
 		(at 185.42 71.12 0)
 		(effects
 			(font
@@ -8592,7 +8612,7 @@
 		)
 		(uuid "c6ee35a4-dd1c-41b4-8039-9d4a00082af4")
 	)
-	(label "FMC_A11"
+	(label "FMC_A12"
 		(at 185.42 76.2 0)
 		(effects
 			(font
@@ -8691,16 +8711,6 @@
 			(justify left bottom)
 		)
 		(uuid "ddbe2744-7ac7-4354-aaeb-7775e907eb38")
-	)
-	(label "FMC_AP"
-		(at 57.15 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddf5f267-4cc0-4dc5-9143-5a5dc67cec6d")
 	)
 	(label "FMC_SDCLK"
 		(at 55.88 118.11 180)
