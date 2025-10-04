@@ -4590,18 +4590,6 @@
 		(uuid 603419e3-35e8-4aed-8af6-c8260685a4eb)
 	)
 	(rectangle
-		(start 144.78 194.31)
-		(end 204.47 228.6)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aeae1e7a-79a7-4445-9eef-d028c0927303)
-	)
-	(rectangle
 		(start 19.05 17.78)
 		(end 144.78 281.94)
 		(stroke
@@ -4666,16 +4654,6 @@
 			)
 		)
 		(uuid "bf013059-7f01-4e6c-8e42-5f9502e528e4")
-	)
-	(text "Extra"
-		(exclude_from_sim no)
-		(at 149.098 226.822 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "f4d0f97e-bd13-48b8-af7c-397d00d913fd")
 	)
 	(junction
 		(at 100.33 57.15)
@@ -13105,48 +13083,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 161.29 203.2)
-		(size 21.59 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "89b98835-8268-490d-9871-db0582cea0e9")
-		(property "Sheetname" "sz4pF4SZ"
-			(at 161.29 202.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "extraf4sz.kicad_sch"
-			(at 161.29 217.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(instances
