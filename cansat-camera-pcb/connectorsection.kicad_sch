@@ -1501,6 +1501,10 @@
 		(uuid "9f9cd1fa-ab5b-446a-94f0-bb57daf69612")
 	)
 	(no_connect
+		(at 77.47 50.8)
+		(uuid "a187fa46-31b3-4bf2-8d24-9cad39dd8105")
+	)
+	(no_connect
 		(at 121.92 68.58)
 		(uuid "a19b2a56-367e-4ef6-98fe-0bbd10567c59")
 	)
@@ -1515,6 +1519,10 @@
 	(no_connect
 		(at 64.77 63.5)
 		(uuid "d0d59108-9cf9-4181-84a4-ded5956ed922")
+	)
+	(no_connect
+		(at 77.47 48.26)
+		(uuid "d6b2fe97-f317-46d3-8cc4-ec08a7125f19")
 	)
 	(no_connect
 		(at 109.22 55.88)
@@ -1723,17 +1731,6 @@
 		)
 		(uuid "5dc9c021-745c-4687-af8c-f22b0d85ca81")
 	)
-	(hierarchical_label "I2C4_SCL"
-		(shape bidirectional)
-		(at 77.47 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9048ade4-8d0c-46bb-a1d6-23b72104f968")
-	)
 	(hierarchical_label "I2C2_SCL"
 		(shape bidirectional)
 		(at 64.77 50.8 180)
@@ -1799,17 +1796,6 @@
 			(justify left)
 		)
 		(uuid "d940e172-504b-40ee-b7c0-3f2cfd4b0a8d")
-	)
-	(hierarchical_label "I2C4_SDA"
-		(shape bidirectional)
-		(at 77.47 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f31b2225-a446-4a56-a10b-3fcb290e9610")
 	)
 	(symbol
 		(lib_id "power:VCC")
