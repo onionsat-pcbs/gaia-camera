@@ -454,6 +454,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -682,20 +807,52 @@
 		)
 	)
 	(junction
-		(at 107.95 66.04)
+		(at 85.09 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b45df02-6543-4c17-970d-2690991d7cde")
 	)
 	(junction
-		(at 85.09 66.04)
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3ff8e9-9ddd-4981-ac5d-f765dbd10144")
+	)
+	(junction
+		(at 62.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79653319-7ce2-422d-964c-d5cba15e98bd")
 	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac88fd95-e50b-4194-9081-5baa6367e5be")
+	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 88.9 68.58)
+			(xy 129.54 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a681d1e-d06e-48d8-b126-bdcc1d07d44e")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e43a174-5589-4089-b76e-1fe5083968b5")
+	)
+	(wire
+		(pts
+			(xy 59.69 69.85) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 110.49 66.04)
+			(xy 85.09 67.31) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +872,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 107.95 66.04)
+			(xy 148.59 67.31) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee810d2-a86e-4210-8639-450cf55b2faf")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 85.09 67.31)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +892,47 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 85.09 63.5)
+			(xy 144.78 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eabcd03-5dce-4586-ab8a-8e7aa1a9e677")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c7173d-b80e-40be-b08c-892b238aa9a9")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c659a56-e99c-44c0-897e-84f41033c694")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6cb134-4642-4ba1-8089-57ffdc38bc42")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 62.23 64.77)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 107.95 63.5)
+			(xy 85.09 67.31) (xy 85.09 64.77)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 85.09 66.04)
+			(xy 66.04 67.31) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 85.09 66.04)
+			(xy 59.69 67.31) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -765,16 +972,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 82.55 68.58 90)
+		(at 123.19 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35b2c3db-0b1c-4991-b04d-2d831ecb08ed")
-		(property "Reference" "#PWR018"
-			(at 86.36 68.58 0)
+		(uuid "06771002-bdee-45e6-8737-dab650e3622d")
+		(property "Reference" "#PWR032"
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +990,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 78.74 68.5799 90)
+			(at 119.38 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 68.58 0)
+			(at 123.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +1008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 68.58 0)
+			(at 123.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +1017,141 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.55 68.58 0)
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3865d462-c1f2-44a8-b292-c5fd0a2a9704")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 123.19 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cae7747-112c-4409-b766-4dda5d259a95")
+		(property "Reference" "#PWR031"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 119.38 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fee0bb-a849-40eb-babf-9172155e976a")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b2c3db-0b1c-4991-b04d-2d831ecb08ed")
+		(property "Reference" "#PWR018"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 55.88 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,8 +1172,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37577a34-1c3d-4481-8cbf-3daa7831b030")
+		(property "Reference" "C17"
+			(at 154.686 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 154.432 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b27ea9c0-e774-421a-8d9b-9d2aaf932576")
+		)
+		(pin "1"
+			(uuid "85c994fe-316e-48cb-a009-315c716cd93c")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 110.49 66.04 270)
+		(at 87.63 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -841,7 +1251,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ee7644-d6e3-4631-b7a1-cb323660c455")
 		(property "Reference" "#PWR017"
-			(at 106.68 66.04 0)
+			(at 83.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +1260,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 66.0399 90)
+			(at 91.44 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +1269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 66.04 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +1278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 66.04 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +1287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 66.04 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,8 +1308,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 137.16 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47299632-2c04-4573-a154-cb65786727a6")
+		(property "Reference" "U1"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "11d211c6-2014-4969-b3a5-445756d82886")
+		)
+		(pin "4"
+			(uuid "bce5cc16-72b3-450c-af34-138e98392086")
+		)
+		(pin "2"
+			(uuid "ab1ef628-7f83-4ec4-b68d-f1e41a28dc97")
+		)
+		(pin "1"
+			(uuid "b8939b6b-3547-4479-adaf-236c690bffae")
+		)
+		(pin "3"
+			(uuid "b44f63e1-70e3-4660-a1df-d3dd5f806a14")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 85.09 58.42 180)
+		(at 62.23 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -908,7 +1395,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f74726a-487b-4445-b133-4c2a5fbe239f")
 		(property "Reference" "#PWR014"
-			(at 85.09 52.07 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 53.34 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 58.42 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +1421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 58.42 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +1430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 58.42 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +1452,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 85.09 60.96 180)
+		(at 62.23 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -973,7 +1460,7 @@
 		(dnp no)
 		(uuid "7ac5278b-34d1-41b3-9ce9-32d58cebf9ff")
 		(property "Reference" "C14"
-			(at 78.994 59.69 0)
+			(at 56.134 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1469,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 79.248 61.722 0)
+			(at 56.388 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 85.09 60.96 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 60.96 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1496,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 60.96 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1521,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 96.52 68.58 0)
+		(at 73.66 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1043,7 +1530,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c6a19f1-7abe-48ec-bef3-688d6d955a0a")
 		(property "Reference" "U2"
-			(at 96.52 59.69 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1538,7 @@
 			)
 		)
 		(property "Value" "AP2112K-3.3"
-			(at 96.52 62.23 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1546,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 96.52 60.325 0)
+			(at 73.66 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1555,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 96.52 66.04 0)
+			(at 73.66 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1564,7 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 96.52 68.58 0)
+			(at 73.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 58.42 180)
+		(at 85.09 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1120,7 +1607,7 @@
 		(fields_autoplaced yes)
 		(uuid "88664255-7788-4497-a111-e95d43fe30ce")
 		(property "Reference" "#PWR015"
-			(at 107.95 52.07 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 53.34 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 58.42 0)
+			(at 85.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 58.42 0)
+			(at 85.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 58.42 0)
+			(at 85.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 76.2 0)
+		(at 73.66 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1186,7 +1673,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0cccf9d-4b90-47e2-a91e-114ea3a8af73")
 		(property "Reference" "#PWR019"
-			(at 96.52 82.55 0)
+			(at 73.66 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 81.28 0)
+			(at 73.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 76.2 0)
+			(at 73.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 76.2 0)
+			(at 73.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 76.2 0)
+			(at 73.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,17 +1729,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 82.55 66.04 90)
+		(lib_id "power:GND")
+		(at 125.73 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb0dbc47-2e55-4d51-8c3e-be9eb56470b5")
-		(property "Reference" "#PWR016"
-			(at 86.36 66.04 0)
+		(uuid "a1af0584-9f9f-4e19-84ee-6a59ad5ca945")
+		(property "Reference" "#PWR033"
+			(at 125.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,17 +1747,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 78.74 66.0399 90)
+		(property "Value" "GND"
+			(at 125.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 66.04 0)
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1765,209 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 66.04 0)
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66badb0b-5a95-4f95-8621-7dd9d30f060d")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 125.73 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4db9dda-ab2e-4d3c-88e9-bf9376117e67")
+		(property "Reference" "C16"
+			(at 119.634 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 119.888 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c89943dd-b086-4419-a076-403a37c266b9")
+		)
+		(pin "1"
+			(uuid "5dc0a9ad-04a0-4906-98c5-f407264701dc")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c299876a-45e7-43fd-800f-a132c055ada7")
+		(property "Reference" "#PWR034"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275c6de1-899c-4655-a1a7-b5d5cff63ff0")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0dbc47-2e55-4d51-8c3e-be9eb56470b5")
+		(property "Reference" "#PWR016"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 55.88 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.55 66.04 0)
+			(at 59.69 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,8 +1997,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 151.13 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5cad4ea-8455-462d-8e57-7a095f20ebe9")
+		(property "Reference" "#PWR049"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 154.94 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3ecca0-2c03-4980-b8e9-f9c624c1e909")
+		)
+		(instances
+			(project ""
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 107.95 60.96 0)
+		(at 85.09 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1318,7 +2073,7 @@
 		(dnp no)
 		(uuid "eac7cc6f-c209-44e0-a74a-2caeb5185a57")
 		(property "Reference" "C15"
-			(at 114.046 62.23 0)
+			(at 91.186 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +2082,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 113.792 60.198 0)
+			(at 90.932 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +2091,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 107.95 60.96 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +2100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 60.96 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +2109,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 60.96 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,6 +2127,72 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06ed739-6b2a-4b81-a0b4-e576342c151c")
+		(property "Reference" "#PWR036"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c06e72d2-4214-4b3d-9247-ddb1e34be3d3")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/9291ddec-e291-4dc9-b21b-4bec2f9f7b70"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

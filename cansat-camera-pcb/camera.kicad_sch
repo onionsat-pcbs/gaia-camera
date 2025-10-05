@@ -1663,7 +1663,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1684,7 +1684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3.3VA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1710,7 +1710,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1728,7 +1728,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3.3VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1766,7 +1766,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3250,73 +3250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0be49e58-9c32-4ef6-8262-cec823369f77")
-		(property "Reference" "#PWR087"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 71.12 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56d3d190-0146-4f81-bf2e-2aaa11bf9a5a")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 85.09 270)
 		(unit 1)
@@ -3920,72 +3853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 30.48 120.65 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "432bf2a2-064c-4707-85c0-e61fadf50b53")
-		(property "Reference" "#PWR048"
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d409279-b087-4e30-85c8-56f2ab53b215")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 74.93 0)
 		(unit 1)
@@ -4047,6 +3914,72 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 59.69 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb6eae2-061b-4520-8698-4ca0ca47a7d1")
+		(property "Reference" "#PWR065"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebb148ea-4fcd-4077-b0e1-866c5b8f09ad")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4184,72 +4117,6 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f0e75dd-6cd4-418c-ab98-5b242fc5874a")
-		(property "Reference" "#PWR030"
-			(at 180.34 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be8223d5-4b89-452b-b830-0f78e9f35b8e")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4458,17 +4325,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 39.37 0)
+		(lib_id "power:+3.3VA")
+		(at 39.37 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "604a9365-91f5-43ae-b1f4-d7e9a6274f8d")
-		(property "Reference" "#PWR085"
-			(at 87.63 43.18 0)
+		(uuid "667fe4c4-e326-4e9a-9751-390955e6f6d9")
+		(property "Reference" "#PWR064"
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,8 +4343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 87.63 34.29 0)
+		(property "Value" "+3.3VA"
+			(at 39.37 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 39.37 0)
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 39.37 0)
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,75 +4369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c4203bc-4bc4-47ea-8404-56119975d965")
-		)
-		(instances
-			(project ""
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 156.21 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61fad4fa-fe2d-47c7-837a-a25987af176d")
-		(property "Reference" "#PWR090"
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 160.02 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,12 +4379,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d1e69e3-508c-4bfc-89d9-cde90ac5cc4f")
+			(uuid "c239feee-190c-400b-8201-08697d9851d7")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR090")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4728,17 +4528,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 105.41 27.94 0)
-		(mirror y)
+		(lib_id "power:+3.3VA")
+		(at 87.63 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "704e6ed8-dd03-4496-8498-a960e2f53d09")
-		(property "Reference" "#PWR083"
-			(at 105.41 31.75 0)
+		(fields_autoplaced yes)
+		(uuid "751abce7-7189-4ee8-a6aa-9a6439005b8d")
+		(property "Reference" "#PWR060"
+			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,8 +4546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 105.41 22.86 0)
+		(property "Value" "+3.3VA"
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 27.94 0)
+			(at 87.63 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 27.94 0)
+			(at 87.63 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,8 +4572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 105.41 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 87.63 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,12 +4582,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "77eec842-8084-4d6d-a945-207404db391a")
+			(uuid "8c719428-eca8-462f-8cdf-019beac11596")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR083")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4928,6 +4728,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 50.8 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfbf757-b295-4e26-b558-1f588edb397a")
+		(property "Reference" "#PWR066"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 46.99 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a027f559-1444-4134-a808-5af4e8c0c07c")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 91.44 0)
 		(unit 1)
@@ -4991,6 +4858,72 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94377db3-e942-4862-9899-99c0fc7d6131")
+		(property "Reference" "#PWR029"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a119751e-e40f-4581-befe-48e939d3aa55")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5416,17 +5349,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 83.82 0)
+		(lib_id "power:+3.3VA")
+		(at 74.93 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "afa2bf5b-948e-4103-923f-6febc2a65934")
-		(property "Reference" "#PWR029"
-			(at 180.34 87.63 0)
+		(uuid "ae75103a-b258-4374-92f1-21f3dbc7ee85")
+		(property "Reference" "#PWR067"
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,16 +5367,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 180.34 78.74 0)
+		(property "Value" "+3.3VA"
+			(at 71.12 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 83.82 0)
+			(at 74.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 83.82 0)
+			(at 74.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,74 +5394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7c79140-41a1-4bce-8df6-b6d541c94cb0")
-		)
-		(instances
-			(project "cansat-camera-pcb"
-				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 59.69 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbde1183-19a0-4368-abb7-01fd0c530eba")
-		(property "Reference" "#PWR073"
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 59.69 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 74.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,12 +5404,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a56b158-f2b0-431a-946e-a662041e567e")
+			(uuid "4e0c6e54-14e2-4688-950a-adaee7a6ea03")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR073")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5748,6 +5616,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 180.34 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3938417-4f5e-4c06-895b-3e1c08ae1026")
+		(property "Reference" "#PWR030"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2acd9ae6-6670-47c4-bf03-a9b32fd4fabf")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 95.25 90)
 		(unit 1)
@@ -5809,6 +5743,73 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 156.21 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75cdd35-85b5-421e-9bf4-703c442880f2")
+		(property "Reference" "#PWR063"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 160.02 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "240152c2-c910-4e1d-8d83-eab2e918efc9")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5884,17 +5885,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 39.37 127 0)
-		(mirror x)
+		(lib_id "power:+3.3VA")
+		(at 105.41 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d4a8ff38-95a1-437a-91df-6b984691c88a")
-		(property "Reference" "#PWR096"
-			(at 39.37 123.19 0)
+		(fields_autoplaced yes)
+		(uuid "d56b8a57-bc6e-45dd-aea9-d0b48f5db3e2")
+		(property "Reference" "#PWR050"
+			(at 105.41 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,8 +5903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 39.37 132.08 0)
+		(property "Value" "+3.3VA"
+			(at 105.41 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 127 0)
+			(at 105.41 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 127 0)
+			(at 105.41 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,8 +5929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 127 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 105.41 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,29 +5939,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "b17deee2-f435-4da2-a77a-ea2e90d375b9")
+			(uuid "a5d29a12-1e06-46e6-9420-6be78c6141df")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR096")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 87.63 90)
-		(mirror x)
+		(lib_id "power:+3.3VA")
+		(at 30.48 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5172ac0-a621-4328-8d57-75aef37a1575")
-		(property "Reference" "#PWR076"
-			(at 54.61 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "da4a5a69-5c24-4ce7-9b94-1bd40bef27fe")
+		(property "Reference" "#PWR048"
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,16 +5969,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 45.72 87.63 0)
+		(property "Value" "+3.3VA"
+			(at 26.67 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 87.63 0)
+			(at 30.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 87.63 0)
+			(at 30.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,8 +5996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 30.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,12 +6006,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbd33403-fa4d-45c2-9ea4-a387be0d8100")
+			(uuid "0ccf8957-cd2a-424a-9483-cf415032597c")
 		)
 		(instances
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
-					(reference "#PWR076")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
