@@ -1491,6 +1491,60 @@
 					)
 				)
 			)
+			(pin input line
+				(at -1.27 -21.59 90)
+				(length 2.54)
+				(name "HEATSINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -21.59 90)
+				(length 2.54)
+				(name "HEATSINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -21.59 90)
+				(length 2.54)
+				(name "HEATSINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 13.97 19.05 180)
 				(length 2.54)

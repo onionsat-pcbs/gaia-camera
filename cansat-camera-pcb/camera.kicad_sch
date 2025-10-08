@@ -1015,6 +1015,60 @@
 						)
 					)
 				)
+				(pin input line
+					(at -1.27 -21.59 90)
+					(length 2.54)
+					(name "HEATSINK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -21.59 90)
+					(length 2.54)
+					(name "HEATSINK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -21.59 90)
+					(length 2.54)
+					(name "HEATSINK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 13.97 19.05 180)
 					(length 2.54)
@@ -1891,6 +1945,12 @@
 		)
 	)
 	(junction
+		(at 123.19 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b84fbfb-3f92-4a97-ab34-a9c136912993")
+	)
+	(junction
 		(at 86.36 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1990,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 106.68 71.12)
+			(xy 107.95 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2370,6 +2430,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65522d63-60dc-455e-b3c3-0f14fca06510")
+	)
+	(wire
+		(pts
 			(xy 40.64 125.73) (xy 39.37 125.73)
 		)
 		(stroke
@@ -2480,6 +2550,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86848e22-2bfd-4e85-9efd-06bbce981dd0")
+	)
+	(wire
+		(pts
 			(xy 39.37 125.73) (xy 39.37 127)
 		)
 		(stroke
@@ -2490,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 72.39) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a956c85-7d8f-4bb8-9fbb-3a4f9cb0827f")
+	)
+	(wire
+		(pts
 			(xy 93.98 48.26) (xy 107.95 48.26)
 		)
 		(stroke
@@ -2497,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "8ab2bf55-7770-4f87-bf61-5b983fe8e5ea")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94137542-3e8e-49bc-9715-ec433b098653")
 	)
 	(wire
 		(pts
@@ -2610,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 71.12) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0d169c-a2a6-467e-bcac-4e5bb6c24353")
+	)
+	(wire
+		(pts
 			(xy 106.68 66.04) (xy 106.68 71.12)
 		)
 		(stroke
@@ -2627,6 +2737,16 @@
 			(type default)
 		)
 		(uuid "afb6106a-0ab7-4c7e-a33c-3ddbae837c65")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24e2ed0-c917-4ee9-85a0-c9c05c2827fd")
 	)
 	(wire
 		(pts
@@ -3019,7 +3139,7 @@
 	)
 	(hierarchical_label "STROBE"
 		(shape output)
-		(at 110.49 71.12 0)
+		(at 107.95 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4930,6 +5050,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9665e4f6-78e2-49c3-8bef-0b67882499ed")
+		(property "Reference" "#PWR068"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f9b096-916d-47ea-b281-7b34b558480c")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/4e5625c8-7acb-416f-9f6b-47ea44535b2e"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 127 0)
 		(unit 1)
@@ -5539,6 +5725,15 @@
 		)
 		(pin "12"
 			(uuid "1edef43d-010c-4746-adc1-cb4a43f26577")
+		)
+		(pin "27"
+			(uuid "f61bcacc-ca72-4189-b904-e506426f8e14")
+		)
+		(pin "26"
+			(uuid "5ded8011-703c-476b-8e8f-33b6189cbd2d")
+		)
+		(pin "25"
+			(uuid "0a70521b-7a4d-4bfe-a1ad-e6d670f0bae7")
 		)
 		(instances
 			(project ""
