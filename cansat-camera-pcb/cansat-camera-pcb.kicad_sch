@@ -9688,7 +9688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" "gaia-camera-footprints:LQFP-144_20x20mm_P0.5mm"
 			(at 62.23 242.57 0)
 			(effects
 				(font
@@ -11117,7 +11117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "gaia-camera-footprints:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 44.45 91.44 0)
 			(effects
 				(font

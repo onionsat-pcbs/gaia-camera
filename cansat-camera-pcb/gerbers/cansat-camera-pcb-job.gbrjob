@@ -1,0 +1,251 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.4"
+    },
+    "CreationDate": "2025-10-08T12:20:32+02:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "cansat-camera-pcb",
+      "GUID": "63616e73-6174-42d6-9361-6d6572612d70",
+      "Revision": "1.0"
+    },
+    "Size": {
+      "X": 50.2,
+      "Y": 50.2
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 0.8,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1262
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "cansat-camera-pcb-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-GND1.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-In2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-PWR2.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-PWR1.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-In5_Cu.gbr",
+      "FileFunction": "Copper,L13,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-GND3.gbr",
+      "FileFunction": "Copper,L15,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-B_Cu.gbr",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cansat-camera-pcb-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "cansat-camera-pcb-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "cansat-camera-pcb-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/GND1",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "GND1/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND1 to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/PWR2",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to PWR2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "PWR2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "PWR2/PWR1",
+      "Notes": "Type: dielectric layer 4 (from PWR2 to PWR1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "PWR1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "PWR1/In5.Cu",
+      "Notes": "Type: dielectric layer 5 (from PWR1 to In5.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In5.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In5.Cu/GND3",
+      "Notes": "Type: dielectric layer 6 (from In5.Cu to GND3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0884,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "GND3/B.Cu",
+      "Notes": "Type: dielectric layer 7 (from GND3 to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

@@ -3174,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm"
+		(property "Footprint" "gaia-camera-footprints:Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm"
 			(at 106.68 122.86 0)
 			(effects
 				(font

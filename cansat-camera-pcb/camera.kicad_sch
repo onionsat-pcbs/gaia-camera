@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS2520MVQ240BSTR"
+		(property "Footprint" "gaia-camera-footprints:ECS2520MVQ240BSTR"
 			(at 143.51 -7.29 0)
 			(effects
 				(font
