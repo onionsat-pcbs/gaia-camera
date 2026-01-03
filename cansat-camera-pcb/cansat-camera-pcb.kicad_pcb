@@ -963,7 +963,7 @@
 		(descr "ECS-2520MVQ-240-BS-TR-2")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y2"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e1821af4-bf41-447a-8fe4-d967415cc9fe")
@@ -975,7 +975,7 @@
 			)
 		)
 		(property "Value" "ECS-2520MVQ-240-BS-TR"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bf2578ac-d0b6-41e0-bee7-2b89f8984312")
@@ -987,7 +987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a915753-a13a-4808-8972-024917da771f")
@@ -999,7 +999,7 @@
 			)
 		)
 		(property "Description" "24 MHz XO (Standard) HCMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1a700be-86e0-4359-aab1-627e7487cc44")
@@ -1160,7 +1160,7 @@
 			(uuid "8bd79893-e09d-44bc-895f-5cbb0b7866d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "1236cd07-e681-4110-8bd9-50d1918db9ec")
 			(effects
@@ -1207,7 +1207,7 @@
 			(uuid "2239cb0a-9626-4332-af05-9063d3429e01")
 		)
 		(embedded_fonts no)
-		(model "ECS-2520MVQ-240-BS-TR.stp"
+		(model "${KIPRJMOD}/3dmodels/ECS-2520MVQ-240-BS-TR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5744,7 +5744,7 @@
 			(uuid "c1856e86-ad8a-4aff-9b35-5639cb9f20a7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/KEY-SMD_L4.0-W3.0-LS4.9.step"
+		(model "${KIPRJMOD}/3dmodels/KEY-SMD_L4.0-W3.0-LS4.9.step"
 			(offset
 				(xyz 0 0 -0.45)
 			)
@@ -11985,6 +11985,17 @@
 			(uuid "c52e11ec-ec6f-4241-a579-bc011412a771")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "gaia-camera-footprints:Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm"
 		(layer "B.Cu")
@@ -12812,7 +12823,7 @@
 			(uuid "1b74c517-0a52-44fe-a1c3-72ed8b36708a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-100_8x8mm_Layout10x10_P0.8mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14126,6 +14137,17 @@
 			(uuid "07d58216-8e5c-425c-97af-6e7ed7517ca9")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
@@ -16216,6 +16238,17 @@
 			(uuid "b4eb1de2-dacb-4cd5-80da-5362d21c3f4d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/HDR-SMD_5P-P2.54-H-F_X6511FRS-19-C85D30.step"
+			(offset
+				(xyz -2.2 -5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
@@ -18490,15 +18523,26 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "F33Z-1A7Q1-E8C24.stp"
+		(model "${KIPRJMOD}/3dmodels/OV5640.step"
 			(offset
-				(xyz 0 2.529999933 0)
+				(xyz 0 0.03 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/3dmodels/F33Z-1A7Q1-E8C24.step"
+			(offset
+				(xyz 0 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
