@@ -5249,16 +5249,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 170.18) (xy 190.5 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e18b71d-dca0-4e34-a3a0-9c1583e77f22")
-	)
-	(wire
-		(pts
 			(xy 158.75 60.96) (xy 160.02 60.96)
 		)
 		(stroke
@@ -5309,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 172.72) (xy 193.04 172.72)
+			(xy 190.5 171.45) (xy 193.04 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 175.26) (xy 193.04 175.26)
+			(xy 190.5 173.99) (xy 193.04 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6679,7 +6669,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 177.8) (xy 193.04 177.8)
+			(xy 190.5 176.53) (xy 193.04 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6719,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 180.34) (xy 193.04 180.34)
+			(xy 190.5 179.07) (xy 193.04 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7668,7 +7658,7 @@
 		(uuid "1b5dd609-7861-4568-952e-51d9f631ef9f")
 	)
 	(label "LTE_reset"
-		(at 193.04 177.8 0)
+		(at 193.04 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7937,16 +7927,6 @@
 		)
 		(uuid "476611a1-4b02-45f9-91b4-9f1b982eabbd")
 	)
-	(label "BOOT0"
-		(at 193.04 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "493da4f9-6e12-4de9-9caa-f706e19e8984")
-	)
 	(label "I2C4_SCL"
 		(at 156.21 181.61 180)
 		(effects
@@ -8118,7 +8098,7 @@
 		(uuid "70eb2828-7c06-4d53-9431-7b99da903efd")
 	)
 	(label "LTE_pwrkey"
-		(at 193.04 180.34 0)
+		(at 193.04 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8408,7 +8388,7 @@
 		(uuid "a1413c38-6465-434a-bc7d-3fca70929502")
 	)
 	(label "SWCLK"
-		(at 193.04 175.26 0)
+		(at 193.04 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8778,7 +8758,7 @@
 		(uuid "ef9d362d-e9c6-4b07-b504-eb54e4b2c27e")
 	)
 	(label "SWDIO"
-		(at 193.04 172.72 0)
+		(at 193.04 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12789,18 +12769,8 @@
 				(justify left top)
 			)
 		)
-		(pin "BOOT0" input
-			(at 190.5 170.18 0)
-			(uuid "3dcad19b-bfa5-42f0-bfd1-b9e5a310f723")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SWDIO" bidirectional
-			(at 190.5 172.72 0)
+			(at 190.5 171.45 0)
 			(uuid "ad3d852d-ac77-4ac3-8df7-70b0e9bfa7a6")
 			(effects
 				(font
@@ -12810,33 +12780,13 @@
 			)
 		)
 		(pin "SWCLK" bidirectional
-			(at 190.5 175.26 0)
+			(at 190.5 173.99 0)
 			(uuid "eae443b8-5062-4c4d-ae63-aa48f995e6be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "OBC_UART_Tx" output
-			(at 158.75 168.91 180)
-			(uuid "51cb2d0e-5189-416e-8d86-1ca50e136813")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OBC_UART_Rx" input
-			(at 158.75 171.45 180)
-			(uuid "013917e6-ccd9-4a6a-a849-724836aab6be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "usb_DN" bidirectional
@@ -12860,7 +12810,7 @@
 			)
 		)
 		(pin "reset" output
-			(at 190.5 177.8 0)
+			(at 190.5 176.53 0)
 			(uuid "a2d56118-26d0-4c0e-ae22-eb4017fbaaab")
 			(effects
 				(font
@@ -12870,7 +12820,7 @@
 			)
 		)
 		(pin "pwrkey" output
-			(at 190.5 180.34 0)
+			(at 190.5 179.07 0)
 			(uuid "b74b8186-6853-4970-95ae-e536bfaff099")
 			(effects
 				(font
@@ -12892,6 +12842,26 @@
 		(pin "I2C2_SCL" bidirectional
 			(at 158.75 181.61 180)
 			(uuid "232f73c4-7256-4c43-a0a6-6ffb6cf3ad5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DEBUG_UART_TX" input
+			(at 158.75 168.91 180)
+			(uuid "61093daf-b5d3-48c6-bf65-066ee18be67d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DEBUG_UARTRX" output
+			(at 158.75 171.45 180)
+			(uuid "ac9e5d0e-bd4e-413e-93d4-0f4ba9ba38ee")
 			(effects
 				(font
 					(size 1.27 1.27)
