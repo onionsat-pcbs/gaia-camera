@@ -188,7 +188,9 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.11,
+        0.15,
         0.2,
         0.25,
         0.3,
@@ -530,7 +532,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -556,7 +558,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Adress",
         "pcb_color": "rgb(255, 150, 36)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -573,7 +575,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Clock",
         "pcb_color": "rgb(96, 255, 114)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -590,7 +592,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_Command",
         "pcb_color": "rgb(243, 46, 255)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -607,7 +609,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_DQ",
         "pcb_color": "rgb(255, 50, 110)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.6,
@@ -615,12 +617,18 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1262,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -671,11 +679,11 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/usb_DN"
+        "pattern": "*USB_DP*"
       },
       {
         "netclass": "USB",
-        "pattern": "/usb_DP"
+        "pattern": "*USB_DN*"
       }
     ]
   },
