@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-10-08T12:20:32+02:00"
+    "CreationDate": "2026-01-26T21:26:12+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "cansat-camera-pcb",
       "GUID": "63616e73-6174-42d6-9361-6d6572612d70",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size": {
       "X": 50.2,
@@ -25,17 +25,17 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": -0.0,
-      "MinLineWidth": 0.1262
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.11
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": -0.0,
-      "MinLineWidth": 0.2,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.11,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
@@ -48,32 +48,32 @@
     },
     {
       "Path": "cansat-camera-pcb-GND1.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "cansat-camera-pcb-In2_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "cansat-camera-pcb-PWR2.gbr",
-      "FileFunction": "Copper,L9,Inr",
+      "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "cansat-camera-pcb-PWR1.gbr",
-      "FileFunction": "Copper,L11,Inr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "cansat-camera-pcb-In5_Cu.gbr",
-      "FileFunction": "Copper,L13,Inr",
+      "FileFunction": "Copper,L6,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "cansat-camera-pcb-GND3.gbr",
-      "FileFunction": "Copper,L15,Inr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
