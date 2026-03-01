@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Value" "W9825G6JB-6I"
+		(property "Value" "W9825G6KB-6I/AS4C16M16SA-6BIN"
 			(at 93.98 22.86 0)
 			(effects
 				(font
@@ -3999,7 +3999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "W9825G6JB-6I"
+		(property "Manufacturer_Part_Number" "W9825G6KB-6I"
 			(at 106.68 822.86 0)
 			(effects
 				(font

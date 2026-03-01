@@ -1699,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV74328"
+		(property "Value" "TLV74315"
 			(at 135.255 50.8 0)
 			(effects
 				(font
@@ -5192,7 +5192,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV74315"
+		(property "Value" "TLV74328"
 			(at 135.255 26.67 0)
 			(effects
 				(font
