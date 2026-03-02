@@ -151,6 +151,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "gaia-camera-symbols:W9825G6JB-6I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1556,6 +1681,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 43.18) (xy 69.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047ccf5f-cf2b-4c26-acd8-6c12a03940a4")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08caccbe-2a0e-4178-8ac7-f54239e61666")
+	)
+	(wire
+		(pts
 			(xy 50.8 124.46) (xy 50.8 113.03)
 		)
 		(stroke
@@ -1586,6 +1731,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e549f48-f8cc-42d7-b6c1-f84bfdc1ba40")
+	)
+	(wire
+		(pts
 			(xy 41.91 78.74) (xy 43.18 78.74)
 		)
 		(stroke
@@ -1613,6 +1768,26 @@
 			(type default)
 		)
 		(uuid "25273078-cc56-4a1f-8a44-ee4597483dc4")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af0b3db-8a46-4264-bbcd-1fdd16b86566")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3bd3c5-2328-4659-8b02-ebffe3343213")
 	)
 	(wire
 		(pts
@@ -1666,6 +1841,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 88.9) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c463c1-1811-4832-892f-3f757084ab08")
+	)
+	(wire
+		(pts
 			(xy 43.18 113.03) (xy 43.18 101.6)
 		)
 		(stroke
@@ -1673,6 +1858,16 @@
 			(type default)
 		)
 		(uuid "4630aecf-1cf9-4682-950d-4aaff0817afe")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 69.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48efcc46-b598-4293-86bb-8e05ee299d7c")
 	)
 	(wire
 		(pts
@@ -1696,6 +1891,46 @@
 	)
 	(wire
 		(pts
+			(xy 74.9155 73.66) (xy 77.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502c87fb-d3d6-454a-9fd7-51a1f5854d60")
+	)
+	(wire
+		(pts
+			(xy 74.93 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561a622c-a4dc-44f4-8d38-6f24e3694676")
+	)
+	(wire
+		(pts
+			(xy 74.93 30.48) (xy 77.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5691f13c-8109-4bdd-b753-c7f0eef697a1")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8efaea-eebe-4db7-8496-19078f2f8714")
+	)
+	(wire
+		(pts
 			(xy 50.8 124.46) (xy 49.53 124.46)
 		)
 		(stroke
@@ -1716,6 +1951,36 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 58.42) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb80f00-696d-4764-8179-308982ec610c")
+	)
+	(wire
+		(pts
+			(xy 74.93 71.12) (xy 77.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716dee71-b7a8-4ba2-a67a-4c9cd207190e")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ed3537-b1c9-4783-90b7-80024522b809")
+	)
+	(wire
+		(pts
 			(xy 50.8 67.31) (xy 50.8 78.74)
 		)
 		(stroke
@@ -1723,6 +1988,16 @@
 			(type default)
 		)
 		(uuid "781b8204-a6f0-431c-a5e3-ed753b06c3ea")
+	)
+	(wire
+		(pts
+			(xy 66.04 60.96) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e32057-c91e-482a-87fc-3421567b0544")
 	)
 	(wire
 		(pts
@@ -1736,6 +2011,46 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b58020-bdd2-4a20-83c3-45f3753f1a4b")
+	)
+	(wire
+		(pts
+			(xy 66.04 86.36) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dceecb-e12b-4fbc-8232-e7e257e71ee0")
+	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd52c30-0b91-4d33-a7b9-cd9ba8c1238e")
+	)
+	(wire
+		(pts
+			(xy 120.65 38.1) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df37b2a-a415-4f4a-b7e0-2d5c5350e120")
+	)
+	(wire
+		(pts
 			(xy 50.8 78.74) (xy 49.53 78.74)
 		)
 		(stroke
@@ -1743,6 +2058,36 @@
 			(type default)
 		)
 		(uuid "9369fc39-6971-4c6a-8896-7466ceb823c3")
+	)
+	(wire
+		(pts
+			(xy 74.93 60.96) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94896d73-c196-450f-99c5-26c203bd4280")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 69.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebc923e-7d5d-403e-8f2d-de6c1f301480")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17c6e52-00d4-4b48-b778-12f8763a5d0c")
 	)
 	(wire
 		(pts
@@ -1766,6 +2111,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a26197-c376-4473-bc94-c238f9adb5b3")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bd8128-d1f7-451b-940d-66b1fafc837c")
+	)
+	(wire
+		(pts
 			(xy 50.8 101.6) (xy 49.53 101.6)
 		)
 		(stroke
@@ -1783,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "baf39e37-2b10-41ce-8c61-195dca1c14a4")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 69.8355 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8bcaf1-6155-473a-b6ff-783b5120530e")
 	)
 	(wire
 		(pts
@@ -1806,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 38.1) (xy 110.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d644f6-e9d6-4ba0-a22a-809cb34f7f12")
+	)
+	(wire
+		(pts
 			(xy 43.18 124.46) (xy 43.18 113.03)
 		)
 		(stroke
@@ -1813,6 +2198,26 @@
 			(type default)
 		)
 		(uuid "cbec8daf-e0e7-4508-a38a-2e3f3a1c9353")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9f43e7-cc64-4584-9d11-02dcfb961e77")
+	)
+	(wire
+		(pts
+			(xy 74.93 76.2) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce706274-2249-472d-a626-99d2a637b908")
 	)
 	(wire
 		(pts
@@ -1836,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd9430b-3ba2-4acb-9b3b-491c09b71532")
+	)
+	(wire
+		(pts
 			(xy 43.18 33.02) (xy 44.45 33.02)
 		)
 		(stroke
@@ -1853,6 +2268,56 @@
 			(type default)
 		)
 		(uuid "d3ab71ed-741c-4acf-a713-f4fad1ddd103")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 110.49 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ae5d69-b43b-4955-a1a7-3a14f532e4e7")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.1) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5375e5-8b1d-49bb-b46d-c7a86cfe225d")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df184a97-5a45-4d1a-a72a-d15761c80ce0")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 77.47 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4266b5b-337e-4584-93a1-f6235d99efa6")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 69.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8775ee2-5fed-4264-9226-aaa33265ced7")
 	)
 	(wire
 		(pts
@@ -1896,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f233e304-53cb-4840-a278-e3debaaccbe0")
+	)
+	(wire
+		(pts
 			(xy 50.8 44.45) (xy 49.53 44.45)
 		)
 		(stroke
@@ -1903,6 +2378,16 @@
 			(type default)
 		)
 		(uuid "f2e1c2e4-ffda-41a6-bbda-be9f48bf1b92")
+	)
+	(wire
+		(pts
+			(xy 74.93 83.82) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc86be41-67b2-4464-a7f4-18cd46df79b4")
 	)
 	(wire
 		(pts
@@ -1914,9 +2399,29 @@
 		)
 		(uuid "fc9b7f75-74d7-4343-bac9-620d80202c8c")
 	)
+	(wire
+		(pts
+			(xy 121.92 33.02) (xy 119.38 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd398f1-8520-4b44-b790-356f54006a9c")
+	)
+	(wire
+		(pts
+			(xy 74.93 68.58) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaa021f-bb0e-4d79-a8ab-f5e2398d866b")
+	)
 	(hierarchical_label "DQ12"
 		(shape bidirectional)
-		(at 77.47 58.42 180)
+		(at 66.04 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,7 +2432,7 @@
 	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 110.49 38.1 0)
+		(at 120.65 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1938,7 +2443,7 @@
 	)
 	(hierarchical_label "DQ3"
 		(shape bidirectional)
-		(at 77.47 71.12 180)
+		(at 66.04 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1949,7 +2454,7 @@
 	)
 	(hierarchical_label "DQ15"
 		(shape bidirectional)
-		(at 77.47 30.48 180)
+		(at 66.04 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +2465,7 @@
 	)
 	(hierarchical_label "DQ8"
 		(shape bidirectional)
-		(at 77.47 88.9 180)
+		(at 66.04 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,7 +2476,7 @@
 	)
 	(hierarchical_label "DQ5"
 		(shape bidirectional)
-		(at 77.47 86.36 180)
+		(at 66.04 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1982,7 +2487,7 @@
 	)
 	(hierarchical_label "A3"
 		(shape input)
-		(at 110.49 88.9 0)
+		(at 120.65 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,7 +2498,7 @@
 	)
 	(hierarchical_label "A2"
 		(shape input)
-		(at 110.49 91.44 0)
+		(at 120.65 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,7 +2509,7 @@
 	)
 	(hierarchical_label "DQ0"
 		(shape bidirectional)
-		(at 77.47 38.1 180)
+		(at 66.04 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2026,7 +2531,7 @@
 	)
 	(hierarchical_label "DQ14"
 		(shape bidirectional)
-		(at 77.47 43.18 180)
+		(at 66.04 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2059,7 +2564,7 @@
 	)
 	(hierarchical_label "DQ13"
 		(shape bidirectional)
-		(at 77.47 45.72 180)
+		(at 66.04 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,7 +2586,7 @@
 	)
 	(hierarchical_label "DQ4"
 		(shape bidirectional)
-		(at 77.47 68.58 180)
+		(at 66.04 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2092,7 +2597,7 @@
 	)
 	(hierarchical_label "DQ2"
 		(shape bidirectional)
-		(at 77.47 53.34 180)
+		(at 66.04 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2103,7 +2608,7 @@
 	)
 	(hierarchical_label "DQ11"
 		(shape bidirectional)
-		(at 77.47 60.96 180)
+		(at 66.04 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2147,7 +2652,7 @@
 	)
 	(hierarchical_label "A5"
 		(shape input)
-		(at 110.49 83.82 0)
+		(at 120.65 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2169,7 +2674,7 @@
 	)
 	(hierarchical_label "A4"
 		(shape input)
-		(at 110.49 86.36 0)
+		(at 120.65 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,7 +2696,7 @@
 	)
 	(hierarchical_label "DQ7"
 		(shape bidirectional)
-		(at 110.49 33.02 0)
+		(at 121.92 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,7 +2707,7 @@
 	)
 	(hierarchical_label "DQ6"
 		(shape bidirectional)
-		(at 77.47 83.82 180)
+		(at 66.04 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,7 +2718,7 @@
 	)
 	(hierarchical_label "DQ10"
 		(shape bidirectional)
-		(at 77.47 73.66 180)
+		(at 66.04 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2301,7 +2806,7 @@
 	)
 	(hierarchical_label "DQ9"
 		(shape bidirectional)
-		(at 77.47 76.2 180)
+		(at 66.04 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2334,7 +2839,7 @@
 	)
 	(hierarchical_label "DQ1"
 		(shape bidirectional)
-		(at 77.47 55.88 180)
+		(at 66.04 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2342,6 +2847,74 @@
 			(justify right)
 		)
 		(uuid "f3de131f-ba28-4062-ae95-4c14a401c3fd")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0190d911-7517-4eaa-86ca-f1308e600762")
+		(property "Reference" "R27"
+			(at 72.39 78.74 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d7fc91c-666c-4dba-806d-4a2ea8f9bc94")
+		)
+		(pin "1"
+			(uuid "a69dabd2-7c9e-4871-8b3e-219acd7cdce6")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2533,6 +3106,142 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ce1d23-3a6b-481a-b534-6da1e4b5f580")
+		(property "Reference" "R39"
+			(at 72.39 25.4 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3488edc9-70a1-4ce2-9b50-89f8ec813ff5")
+		)
+		(pin "1"
+			(uuid "78cc689f-d276-4f96-8ce9-a51a299254a6")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fbc6535-9ce3-4ef1-8295-aba88c0581c1")
+		(property "Reference" "R38"
+			(at 72.39 33.02 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8de51de1-e75f-48a0-959e-45b573e45913")
+		)
+		(pin "1"
+			(uuid "c1fc1538-3710-468b-9821-9a9ec876d8bb")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2866,6 +3575,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc17479-23b6-459e-9af1-2ae80df49858")
+		(property "Reference" "R37"
+			(at 72.39 38.1 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "578f0c25-049b-440c-b46a-0eec42ae8d34")
+		)
+		(pin "1"
+			(uuid "2dbe7037-5e85-4222-8aa0-a892a9f9221b")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 77.47 66.04 90)
 		(unit 1)
@@ -3126,6 +3903,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "385dd209-30ae-4cb7-bc6e-4fb5bba4f88c")
+		(property "Reference" "R33"
+			(at 72.39 53.34 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2af334d6-6378-4d72-8689-61fa42ad9aca")
+		)
+		(pin "1"
+			(uuid "aa1cb794-1d82-434d-a0cc-f1d250ee5d41")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be5ac39-69cc-46cf-9704-984eb2228c30")
+		(property "Reference" "R34"
+			(at 72.39 50.8 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a130f646-8b3e-4da6-bf89-37bd3998a78a")
+		)
+		(pin "1"
+			(uuid "b291a307-5dd4-4167-a3bd-4d325bd2d764")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "456b6c08-e2df-4090-8688-ee49f9d4060e")
+		(property "Reference" "R25"
+			(at 72.39 83.82 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa6ea818-a305-411a-851e-344897ea1237")
+		)
+		(pin "1"
+			(uuid "24ef6ee3-14d8-4188-9054-bbad12d5b8e6")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 33.02 270)
 		(unit 1)
@@ -3187,6 +4168,74 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52e5da58-d1f5-4541-b43b-7636d1544d4f")
+		(property "Reference" "R40"
+			(at 116.84 27.94 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 116.84 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fa6e24f-8227-46f0-a63f-fc6f21245403")
+		)
+		(pin "1"
+			(uuid "a532d3c3-0d97-4d72-9910-5cca9feda4bd")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3838,6 +4887,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7949af79-c1d2-401f-a188-a31dffd5e67f")
+		(property "Reference" "R41"
+			(at 116.84 33.02 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 116.84 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec9e4c66-a813-4b2c-aa07-f013cf8353a3")
+		)
+		(pin "1"
+			(uuid "b4de13dc-0cc4-456b-9288-98a299b585ff")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 77.47 35.56 90)
 		(unit 1)
@@ -4307,6 +5424,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9845f2e0-1dba-4084-9614-836495f683bb")
+		(property "Reference" "R36"
+			(at 72.39 40.64 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c575f9c-e7fe-4ae0-8a1b-b77cae49bb7b")
+		)
+		(pin "1"
+			(uuid "a6fc9ea1-7ae9-4de2-b32d-1e1b98b7be9d")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f7976d-d213-4372-a47b-17ac9ff55653")
+		(property "Reference" "R30"
+			(at 72.39 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74cddb6f-c6e0-4493-85cb-2184e18b4678")
+		)
+		(pin "1"
+			(uuid "c0cedb4e-3882-4ea3-95c8-89352ef940d4")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 46.99 67.31 90)
 		(unit 1)
@@ -4500,6 +5753,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9996a63-36a9-497f-ad2e-3aaf9fdd4e8e")
+		(property "Reference" "R31"
+			(at 72.39 63.5 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "681d6b92-2bd9-45b5-9cb1-fabb1dfd7981")
+		)
+		(pin "1"
+			(uuid "bb7e23f6-769b-4553-8479-53fff476b6ad")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 27.94 270)
 		(unit 1)
@@ -4561,6 +5882,74 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48a3687-d233-4458-8725-9ca5c1857bcb")
+		(property "Reference" "R35"
+			(at 72.39 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbceaa8b-3e37-41ed-afe6-41584c526469")
+		)
+		(pin "1"
+			(uuid "2f93165d-4c0a-494d-bc02-c9dffb19f5eb")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4835,6 +6224,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.3755 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82af058-2792-4a8b-ab57-8d3c103d4f6e")
+		(property "Reference" "R29"
+			(at 72.3755 68.58 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.3755 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.3755 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.3755 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.3755 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e8abad3-9346-4b02-acc9-e3174ec15672")
+		)
+		(pin "1"
+			(uuid "1e7cf6db-a6e6-4294-8a76-d2f0c4803ef4")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 77.47 48.26 90)
 		(unit 1)
@@ -5095,6 +6552,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4101deb-6fd5-4ac5-a3cb-6a78bef3e917")
+		(property "Reference" "R26"
+			(at 72.39 81.28 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e4603d7-da6d-4dc3-a301-437a8ba8fa0b")
+		)
+		(pin "1"
+			(uuid "148dd9b4-4e8b-40e0-8a4b-982c09e3c860")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 110.49 93.98 270)
 		(unit 1)
@@ -5229,6 +6754,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a80546-be95-4cb4-971b-25fa24a588b0")
+		(property "Reference" "R32"
+			(at 72.39 55.88 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1826c56-4215-4cdd-88d0-827429ca821d")
+		)
+		(pin "1"
+			(uuid "93d9f9fb-0fd4-443c-a062-ab30f49948f3")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 77.47 78.74 90)
 		(unit 1)
@@ -5290,6 +6883,74 @@
 			(project "cansat-camera-pcb"
 				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabcd769-eb89-42be-a7dd-7e5dfebcff24")
+		(property "Reference" "R28"
+			(at 72.39 71.12 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.39 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13009156-b4e5-41fc-ace2-cbd6fe3eceb8")
+		)
+		(pin "1"
+			(uuid "ffdf20c2-ee29-4357-9c81-0db253ea105a")
+		)
+		(instances
+			(project "cansat-camera-pcb"
+				(path "/ff55e53a-9379-43eb-9b08-9bace1f81889/12f64f3d-24be-4094-a17a-c73af9bffac2"
+					(reference "R28")
 					(unit 1)
 				)
 			)
